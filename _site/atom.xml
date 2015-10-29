@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>A Friend Blog to the Code Repositories</title>
+ <title>Sergi Pasoev</title>
  <link href="http://username.github.io/atom.xml" rel="self"/>
  <link href="http://username.github.io"/>
- <updated>2015-10-29T21:05:39+04:00</updated>
+ <updated>2015-10-29T21:22:14+04:00</updated>
  <id>http://username.github.io</id>
  <author>
    <name>Sergi Pasoev</name>
