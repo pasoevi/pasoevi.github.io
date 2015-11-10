@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Emacs Shortcuts for Writing Posts Using Jekyll
+category: "Programming"
 ---
 
 One of the good things about static site generators is that they do

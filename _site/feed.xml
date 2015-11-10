@@ -5,8 +5,8 @@
     <description>A blog to accompany the Github repositories from the same user.</description>
     <link>http://pasoev@github.io/</link>
     <atom:link href="http://pasoev@github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 10 Nov 2015 20:23:04 +0400</pubDate>
-    <lastBuildDate>Tue, 10 Nov 2015 20:23:04 +0400</lastBuildDate>
+    <pubDate>Tue, 10 Nov 2015 20:41:11 +0400</pubDate>
+    <lastBuildDate>Tue, 10 Nov 2015 20:41:11 +0400</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
@@ -14,11 +14,11 @@
         <description>
 </description>
         <pubDate>Tue, 10 Nov 2015 00:00:00 +0400</pubDate>
-        <link>http://pasoev@github.io/politics/2015/11/10/on-measuring-human-development/</link>
-        <guid isPermaLink="true">http://pasoev@github.io/politics/2015/11/10/on-measuring-human-development/</guid>
+        <link>http://pasoev@github.io/simpler/2015/11/10/on-measuring-human-development/</link>
+        <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/11/10/on-measuring-human-development/</guid>
         
         
-        <category>Politics</category>
+        <category>Simpler</category>
         
       </item>
     
@@ -75,9 +75,11 @@ to do&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 31 Oct 2015 00:00:00 +0400</pubDate>
-        <link>http://pasoev@github.io/2015/10/31/jekyll-posts-emacs-capture/</link>
-        <guid isPermaLink="true">http://pasoev@github.io/2015/10/31/jekyll-posts-emacs-capture/</guid>
+        <link>http://pasoev@github.io/programming/2015/10/31/jekyll-posts-emacs-capture/</link>
+        <guid isPermaLink="true">http://pasoev@github.io/programming/2015/10/31/jekyll-posts-emacs-capture/</guid>
         
+        
+        <category>Programming</category>
         
       </item>
     

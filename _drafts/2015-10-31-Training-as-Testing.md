@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Training as Testing
-category: Simpler
+category: "Simpler"
 ---
 
 There is some worship of training, of improvement and living in strict
