@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Training as Testing 
+title: Training as Testing
+category: Simpler
 ---
 
 There is some worship of training, of improvement and living in strict
@@ -9,4 +10,4 @@ legendary for their rigorousness. One such example is Spartan *Agoge*. It is rar
 somebody argues about effectiveness of such regimes. However, it is
 rarely pointed out that not all of the exertions in such systems are
 directed to improvement. A lot of it is just about filtering people
-out. aoeu
+out. 
