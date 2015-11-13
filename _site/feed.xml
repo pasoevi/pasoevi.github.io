@@ -5,9 +5,35 @@
     <description>A blog to accompany the Github repositories from the same user.</description>
     <link>http://pasoev@github.io/</link>
     <atom:link href="http://pasoev@github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 10 Nov 2015 20:48:21 +0400</pubDate>
-    <lastBuildDate>Tue, 10 Nov 2015 20:48:21 +0400</lastBuildDate>
+    <pubDate>Fri, 13 Nov 2015 22:16:22 +0400</pubDate>
+    <lastBuildDate>Fri, 13 Nov 2015 22:16:22 +0400</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>Why is Stoicism Impossible without God</title>
+        <description>
+</description>
+        <pubDate>Fri, 13 Nov 2015 22:16:22 +0400</pubDate>
+        <link>http://pasoev@github.io/simpler/2015/11/13/stoicism-and-god/</link>
+        <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/11/13/stoicism-and-god/</guid>
+        
+        
+        <category>Simpler</category>
+        
+      </item>
+    
+      <item>
+        <title>Another Way to Plan Your Work with Emacs</title>
+        <description>
+</description>
+        <pubDate>Fri, 13 Nov 2015 22:16:22 +0400</pubDate>
+        <link>http://pasoev@github.io/simpler/2015/11/13/another-day-planner/</link>
+        <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/11/13/another-day-planner/</guid>
+        
+        
+        <category>Simpler</category>
+        
+      </item>
     
       <item>
         <title>On Measuring Human Development</title>
