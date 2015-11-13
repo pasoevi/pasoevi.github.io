@@ -24,11 +24,13 @@
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
         {% endfor %}
-	{% for cat in site.posts.categories %}
-          <a class="category-link" href="{{ cat | prepend: site.baseurl }}">{{ cat }}</a>
-        {% endfor %}
-
-
+      </div>
+      <div class="menu">
+	      <ul>
+	      {% for category in site.categories %}
+		      <li><a name="{{ category | first }}">{{ category | first }}</a></li>
+		      {% endfor %}
+	      </ul>
       </div>
     </nav>
 

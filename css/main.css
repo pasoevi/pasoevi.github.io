@@ -97,6 +97,10 @@ a:visited { color: #205caa; }
     display: none;
 }
 
+.menu ul li {
+    display: inline;
+}
+
 .site-nav .page-link {
     margin-left: 20px;
     color: #727272;
