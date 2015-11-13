@@ -1,5 +1,5 @@
 ---
 layout: post
-title: Why is Stoicism Impossible without God
+title: Why Stoicism is Impossible without God
 category: "Simpler"
 ---
