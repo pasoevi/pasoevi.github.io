@@ -5,15 +5,15 @@
     <description>A blog to accompany the Github repositories from the same user.</description>
     <link>http://pasoev@github.io/</link>
     <atom:link href="http://pasoev@github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 Nov 2015 22:55:31 +0400</pubDate>
-    <lastBuildDate>Fri, 13 Nov 2015 22:55:31 +0400</lastBuildDate>
+    <pubDate>Fri, 13 Nov 2015 23:25:21 +0400</pubDate>
+    <lastBuildDate>Fri, 13 Nov 2015 23:25:21 +0400</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
         <title>Why Stoicism is Impossible without God</title>
         <description>
 </description>
-        <pubDate>Fri, 13 Nov 2015 22:55:31 +0400</pubDate>
+        <pubDate>Fri, 13 Nov 2015 23:25:21 +0400</pubDate>
         <link>http://pasoev@github.io/simpler/2015/11/13/stoicism-and-god/</link>
         <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/11/13/stoicism-and-god/</guid>
         
@@ -26,7 +26,7 @@
         <title>Another Way to Plan Your Work with Emacs</title>
         <description>
 </description>
-        <pubDate>Fri, 13 Nov 2015 22:55:31 +0400</pubDate>
+        <pubDate>Fri, 13 Nov 2015 23:25:21 +0400</pubDate>
         <link>http://pasoev@github.io/simpler/2015/11/13/another-day-planner/</link>
         <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/11/13/another-day-planner/</guid>
         
@@ -42,6 +42,99 @@
         <pubDate>Tue, 10 Nov 2015 00:00:00 +0400</pubDate>
         <link>http://pasoev@github.io/simpler/2015/11/10/on-measuring-human-development/</link>
         <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/11/10/on-measuring-human-development/</guid>
+        
+        
+        <category>Simpler</category>
+        
+      </item>
+    
+      <item>
+        <title>On Measuring Human Development</title>
+        <description>
+</description>
+        <pubDate>Tue, 10 Nov 2015 00:00:00 +0400</pubDate>
+        <link>http://pasoev@github.io/simpler/2015/11/10/on-measuring-human-development/</link>
+        <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/11/10/on-measuring-human-development/</guid>
+        
+        
+        <category>Simpler</category>
+        
+      </item>
+    
+      <item>
+        <title>Emacs Shortcuts for Writing Posts Using Jekyll</title>
+        <description>&lt;p&gt;One of the good things about static site generators is that they do
+not dictate how you write posts and what tools you use. For those who
+choose to write posts in Emacs, here are a few function to automate
+file creation and other things.&lt;/p&gt;
+
+&lt;p&gt;If in some blogging systems for writing a new post you have to
+navigate to the web site, get authenticated, visit the page from which
+to create a new post and use the web-based editor, Jekyll allows you
+to do&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;today-is&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&quot;Return current year-month-day.&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;format-time-string&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;%Y-%m-%d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;create-new-post&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;title&lt;/span&gt;
+	 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;string=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;thing-at-point&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&#39;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+	     &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;thing-at-point&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&#39;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;car&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;kill-ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;concat&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file-name-as-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;~/blog/_posts&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;today-is&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;-&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;.md&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;p&quot;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Post&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;plain&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file&lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;create-new-post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; 
+             &lt;span class=&quot;s&quot;&gt;&quot;---\nlayout: post\ntitle: %? \n---\n&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	    &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;(create-new-post)&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;(require ‘cl)&lt;/p&gt;
+
+&lt;p&gt;(defun string/starts-with (string prefix)
+  “Return t if STRING starts with prefix.”
+  (and (string-match (rx-to-string `(: bos ,prefix) t)
+		     string)
+       t))&lt;/p&gt;
+
+&lt;p&gt;(defun is-post-file (filename)
+  “Return t if filename is a known markup file for a Jekyll post”
+  )&lt;/p&gt;
+
+&lt;p&gt;(let ((default-directory “~/blog/_posts”))
+    (file-expand-wildcards “*.md”))
+(defun filter (condp lst)
+  (delq nil
+	(mapcar (lambda (x) (and (funcall condp x) x)) lst)))&lt;/p&gt;
+
+&lt;p&gt;(let ((post-files (directory-files “~/blog/_posts”)))
+  (filter ‘numberp post-files))&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 31 Oct 2015 00:00:00 +0400</pubDate>
+        <link>http://pasoev@github.io/programming/2015/10/31/jekyll-posts-emacs-capture/</link>
+        <guid isPermaLink="true">http://pasoev@github.io/programming/2015/10/31/jekyll-posts-emacs-capture/</guid>
+        
+        
+        <category>Programming</category>
+        
+      </item>
+    
+      <item>
+        <title>Training as Testing</title>
+        <description>&lt;p&gt;There is some worship of training, of improvement and living in strict
+discipline. Many systems of training from present and past are
+legendary for their rigorousness. One such example is Spartan &lt;em&gt;Agoge&lt;/em&gt;. It is rare that
+somebody argues about effectiveness of such regimes. However, it is
+rarely pointed out that not all of the exertions in such systems are
+directed to improvement. A lot of it is just about filtering people
+out.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 31 Oct 2015 00:00:00 +0400</pubDate>
+        <link>http://pasoev@github.io/simpler/2015/10/31/training-as-testing/</link>
+        <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/10/31/training-as-testing/</guid>
         
         
         <category>Simpler</category>
