@@ -5,15 +5,15 @@
     <description>A blog to accompany the Github repositories from the same user.</description>
     <link>http://pasoev@github.io/</link>
     <atom:link href="http://pasoev@github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 15 Nov 2015 01:11:53 +0400</pubDate>
-    <lastBuildDate>Sun, 15 Nov 2015 01:11:53 +0400</lastBuildDate>
+    <pubDate>Sun, 15 Nov 2015 01:13:59 +0400</pubDate>
+    <lastBuildDate>Sun, 15 Nov 2015 01:13:59 +0400</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
         <title>Why Stoicism is Impossible without God</title>
         <description>
 </description>
-        <pubDate>Sun, 15 Nov 2015 01:11:53 +0400</pubDate>
+        <pubDate>Sun, 15 Nov 2015 01:13:59 +0400</pubDate>
         <link>http://pasoev@github.io/simpler/2015/11/15/stoicism-and-god/</link>
         <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/11/15/stoicism-and-god/</guid>
         
@@ -26,9 +26,22 @@
         <title>Another Way to Plan Your Work with Emacs</title>
         <description>
 </description>
-        <pubDate>Sun, 15 Nov 2015 01:11:53 +0400</pubDate>
+        <pubDate>Sun, 15 Nov 2015 01:13:59 +0400</pubDate>
         <link>http://pasoev@github.io/simpler/2015/11/15/another-day-planner/</link>
         <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/11/15/another-day-planner/</guid>
+        
+        
+        <category>Simpler</category>
+        
+      </item>
+    
+      <item>
+        <title>Emacs Shortcuts for Writing Posts Using Jekyll</title>
+        <description>
+</description>
+        <pubDate>Sun, 15 Nov 2015 01:13:59 +0400</pubDate>
+        <link>http://pasoev@github.io/simpler/2015/11/15/about-progress/</link>
+        <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/11/15/about-progress/</guid>
         
         
         <category>Simpler</category>
