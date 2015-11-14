@@ -15,5 +15,7 @@ without intention.
 The analogy that came to my mind whilst reading that book is from the
 people of Tempi, in the descriptions of the way of Lethani. When they
 call themselves civilised and others - barbarians. However, what do
-they mean by civilisation? Do they mean 
+they mean by civilisation? Do they mean
+
+
 
