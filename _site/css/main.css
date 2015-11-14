@@ -80,6 +80,8 @@ a:visited { color: #205caa; }
 
 .theme-img {
     float: left;
+    height: 260px;
+    width: auto;
 }
 
 .site-nav {
