@@ -3,7 +3,6 @@ layout: post
 title: Civilisation vs Domestication
 category: Simpler
 tags: Fantasy
-published: false
 ---
 
 Wise Man's Fear. It is a fantasy novel in the series Kingkiller
