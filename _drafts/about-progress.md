@@ -1,5 +1,5 @@
 ---
 layout: post
-title: Emacs Shortcuts for Writing Posts Using Jekyll
+title: About Progress
 category: "Simpler"
 ---

@@ -4,10 +4,10 @@
 	<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>About</title>
+    <title>Emacs Shortcuts for Writing Posts Using Jekyll</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="A blog to accompany the Github repositories from the same user.">
-    <link rel="canonical" href="http://pasoev@github.io/about/">
+    <link rel="canonical" href="http://pasoev@github.io/programming/2016/01/16/2015-10-31-jekyll-posts-emacs-capture/">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
@@ -60,16 +60,61 @@
 		    <div class="post">
 
   <header class="post-header">
-    <h1>About</h1>
+    <h1>Emacs Shortcuts for Writing Posts Using Jekyll</h1>
+    <p class="meta">Jan 16, 2016</p>
   </header>
 
   <article class="post-content">
-  <p>This is a programming blog that tells about the many things I learned
-during more than a decade. Even though I have been mainly busy with
-programming all these years, it has still not taken all of my time.</p>
+  <p>One of the good things about static site generators is that they do
+not dictate how you write posts and what tools you use. For those who
+choose to write posts in Emacs, here are a few functions to automate
+file creation and other things.</p>
 
-<p>This will be shown in the blog, too. Even though I call it a
-programming blog, it will have other things in it as well. </p>
+<p>If in some blogging systems writing a new post means that you have to
+navigate to the web site, get authenticated, visit the page from which
+to create a new post and use the web-based editor, with some
+configuration Jekyll allows you to do the same with only a few
+keystrokes without ever leaving Emacs.</p>
+
+<p>One approach is to add a capture template which can be called by
+<code>Control-C c</code>.</p>
+
+<div class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">today-is</span> <span class="p">()</span>
+  <span class="s">&quot;Return current year-month-day.&quot;</span>
+  <span class="p">(</span><span class="nv">format-time-string</span> <span class="s">&quot;%Y-%m-%d&quot;</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">create-new-post</span> <span class="p">()</span>
+  <span class="p">(</span><span class="k">let</span> <span class="p">((</span><span class="nv">title</span>
+	 <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">string=</span> <span class="s">&quot;&quot;</span> <span class="p">(</span><span class="nv">thing-at-point</span> <span class="ss">&#39;word</span><span class="p">))</span>
+	     <span class="p">(</span><span class="nv">thing-at-point</span> <span class="ss">&#39;word</span><span class="p">)</span> <span class="p">(</span><span class="nb">car</span> <span class="nv">kill-ring</span><span class="p">))))</span>
+    <span class="p">(</span><span class="nv">concat</span> <span class="p">(</span><span class="nv">file-name-as-directory</span> <span class="s">&quot;~/blog/_posts&quot;</span><span class="p">)</span>
+	<span class="p">(</span><span class="nv">today-is</span><span class="p">)</span> <span class="s">&quot;-&quot;</span> <span class="nv">title</span> <span class="s">&quot;.md&quot;</span><span class="p">)))</span>
+
+<span class="p">(</span><span class="s">&quot;p&quot;</span> <span class="s">&quot;Post&quot;</span> <span class="nv">plain</span> <span class="p">(</span><span class="nv">file</span>  <span class="p">(</span><span class="nv">create-new-post</span><span class="p">))</span> 
+             <span class="s">&quot;---\nlayout: post\ntitle: %? \n---\n&quot;</span><span class="p">)</span>
+
+<span class="p">(</span><span class="nv">create-new-post</span><span class="p">)</span></code></pre></div>
+
+<p>(require ‘cl)</p>
+
+<p>(defun string/starts-with (string prefix)
+  “Return t if STRING starts with prefix.”
+  (and (string-match (rx-to-string `(: bos ,prefix) t)
+		     string)
+       t))</p>
+
+<p>(defun is-post-file (filename)
+  “Return t if filename is a known markup file for a Jekyll post”
+  )</p>
+
+<p>(let ((default-directory “~/blog/_posts”))
+    (file-expand-wildcards “*.md”))
+(defun filter (condp lst)
+  (delq nil
+	(mapcar (lambda (x) (and (funcall condp x) x)) lst)))</p>
+
+<p>(let ((post-files (directory-files “~/blog/_posts”)))
+  (filter ‘numberp post-files))</p>
 
   </article>
 

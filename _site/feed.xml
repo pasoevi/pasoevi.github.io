@@ -5,112 +5,54 @@
     <description>A blog to accompany the Github repositories from the same user.</description>
     <link>http://pasoev@github.io/</link>
     <atom:link href="http://pasoev@github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 02 Dec 2015 00:56:01 +0400</pubDate>
-    <lastBuildDate>Wed, 02 Dec 2015 00:56:01 +0400</lastBuildDate>
-    <generator>Jekyll v3.0.0</generator>
+    <pubDate>Sat, 16 Jan 2016 22:19:58 +0400</pubDate>
+    <lastBuildDate>Sat, 16 Jan 2016 22:19:58 +0400</lastBuildDate>
+    <generator>Jekyll v2.2.0</generator>
     
       <item>
-        <title>Why Stoicism is Impossible without God</title>
+        <title>Why There has to be God in Stoicism</title>
         <description>
 </description>
-        <pubDate>Wed, 02 Dec 2015 00:56:01 +0400</pubDate>
-        <link>http://pasoev@github.io/simpler/2015/12/02/stoicism-and-god/</link>
-        <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/12/02/stoicism-and-god/</guid>
+        <pubDate>Sat, 16 Jan 2016 22:19:22 +0400</pubDate>
+        <link>http://pasoev@github.io/simpler/2016/01/16/stoicism-and-god/</link>
+        <guid isPermaLink="true">http://pasoev@github.io/simpler/2016/01/16/stoicism-and-god/</guid>
         
         
-        <category>Simpler</category>
+        <category>simpler</category>
         
       </item>
     
       <item>
-        <title>Another Way to Plan Your Work with Emacs</title>
+        <title>SDL and OpenGL Demos</title>
         <description>
 </description>
-        <pubDate>Wed, 02 Dec 2015 00:56:01 +0400</pubDate>
-        <link>http://pasoev@github.io/simpler/2015/12/02/another-day-planner/</link>
-        <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/12/02/another-day-planner/</guid>
+        <pubDate>Sat, 16 Jan 2016 22:19:00 +0400</pubDate>
+        <link>http://pasoev@github.io/programming/2016/01/16/sdl-opengl/</link>
+        <guid isPermaLink="true">http://pasoev@github.io/programming/2016/01/16/sdl-opengl/</guid>
+        
+        <category>gamedev</category>
+        
+        <category>programming</category>
+        
+        <category>SDL</category>
+        
+        <category>OpenGL</category>
         
         
-        <category>Simpler</category>
+        <category>programming</category>
         
       </item>
     
       <item>
-        <title>Emacs Shortcuts for Writing Posts Using Jekyll</title>
+        <title>About Progress</title>
         <description>
 </description>
-        <pubDate>Wed, 02 Dec 2015 00:56:01 +0400</pubDate>
-        <link>http://pasoev@github.io/simpler/2015/12/02/about-progress/</link>
-        <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/12/02/about-progress/</guid>
+        <pubDate>Sat, 16 Jan 2016 22:18:52 +0400</pubDate>
+        <link>http://pasoev@github.io/simpler/2016/01/16/about-progress/</link>
+        <guid isPermaLink="true">http://pasoev@github.io/simpler/2016/01/16/about-progress/</guid>
         
         
-        <category>Simpler</category>
-        
-      </item>
-    
-      <item>
-        <title>Emacs Shortcuts for Writing Posts Using Jekyll</title>
-        <description>
-</description>
-        <pubDate>Wed, 02 Dec 2015 00:56:01 +0400</pubDate>
-        <link>http://pasoev@github.io/simpler/2015/12/02/about-developed-undeveloped-nations/</link>
-        <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/12/02/about-developed-undeveloped-nations/</guid>
-        
-        
-        <category>Simpler</category>
-        
-      </item>
-    
-      <item>
-        <title>About Minimalism and Simpler Life</title>
-        <description>
-</description>
-        <pubDate>Sun, 15 Nov 2015 00:00:00 +0400</pubDate>
-        <link>http://pasoev@github.io/simpler/2015/11/15/minimalism-simpler-life/</link>
-        <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/11/15/minimalism-simpler-life/</guid>
-        
-        
-        <category>Simpler</category>
-        
-      </item>
-    
-      <item>
-        <title>Civilisation vs Domestication</title>
-        <description>&lt;p&gt;Wise Man’s Fear. It is a fantasy novel in the series Kingkiller
-Chronicles by Patrick Rothfuss. I rarely read fantasy novels with my
-mind looking for allegories in the background, but some works in this
-genre do really display significant instances of allegory with or
-without intention.&lt;/p&gt;
-
-&lt;p&gt;The analogy that came to my mind whilst reading that book is from the
-people of Tempi, in the descriptions of the way of Lethani. When they
-call themselves civilised and others - barbarians. However, what do
-they mean by civilisation? Do they mean the high speed trains and
-rotating doors? No they didn’t. They meant advancement in the other
-area of human activity. The advancement in morality, about honour.&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 15 Nov 2015 00:00:00 +0400</pubDate>
-        <link>http://pasoev@github.io/simpler/2015/11/15/civilisation-vs-domestication/</link>
-        <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/11/15/civilisation-vs-domestication/</guid>
-        
-        <category>Fantasy</category>
-        
-        
-        <category>Simpler</category>
-        
-      </item>
-    
-      <item>
-        <title>On Measuring Human Development</title>
-        <description>
-</description>
-        <pubDate>Tue, 10 Nov 2015 00:00:00 +0400</pubDate>
-        <link>http://pasoev@github.io/simpler/2015/11/10/on-measuring-human-development/</link>
-        <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/11/10/on-measuring-human-development/</guid>
-        
-        
-        <category>Simpler</category>
+        <category>simpler</category>
         
       </item>
     
@@ -118,32 +60,34 @@ area of human activity. The advancement in morality, about honour.&lt;/p&gt;
         <title>Emacs Shortcuts for Writing Posts Using Jekyll</title>
         <description>&lt;p&gt;One of the good things about static site generators is that they do
 not dictate how you write posts and what tools you use. For those who
-choose to write posts in Emacs, here are a few function to automate
+choose to write posts in Emacs, here are a few functions to automate
 file creation and other things.&lt;/p&gt;
 
-&lt;p&gt;If in some blogging systems for writing a new post you have to
+&lt;p&gt;If in some blogging systems writing a new post means that you have to
 navigate to the web site, get authenticated, visit the page from which
-to create a new post and use the web-based editor, Jekyll allows you
-to do&lt;/p&gt;
+to create a new post and use the web-based editor, with some
+configuration Jekyll allows you to do the same with only a few
+keystrokes without ever leaving Emacs.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;today-is&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;&quot;Return current year-month-day.&quot;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;format-time-string&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;%Y-%m-%d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;p&gt;One approach is to add a capture template which can be called by
+&lt;code&gt;Control-C c&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;today-is&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&amp;quot;Return current year-month-day.&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;format-time-string&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;%Y-%m-%d&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 
 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;create-new-post&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;title&lt;/span&gt;
-	 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;string=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;thing-at-point&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&#39;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-	     &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;thing-at-point&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&#39;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;car&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;kill-ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;concat&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file-name-as-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;~/blog/_posts&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;today-is&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;-&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;.md&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+	 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;string=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;thing-at-point&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&amp;#39;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+	     &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;thing-at-point&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&amp;#39;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;car&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;kill-ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;concat&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file-name-as-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;~/blog/_posts&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;today-is&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;-&amp;quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;.md&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
 
-&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;p&quot;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Post&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;plain&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file&lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;create-new-post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; 
-             &lt;span class=&quot;s&quot;&gt;&quot;---\nlayout: post\ntitle: %? \n---\n&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	    &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;p&amp;quot;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Post&amp;quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;plain&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file&lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;create-new-post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; 
+             &lt;span class=&quot;s&quot;&gt;&amp;quot;---\nlayout: post\ntitle: %? \n---\n&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
-&lt;p&gt;(create-new-post)&lt;/p&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;create-new-post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;hr /&gt;
 &lt;p&gt;(require ‘cl)&lt;/p&gt;
 
 &lt;p&gt;(defun string/starts-with (string prefix)
@@ -164,14 +108,79 @@ to do&lt;/p&gt;
 
 &lt;p&gt;(let ((post-files (directory-files “~/blog/_posts”)))
   (filter ‘numberp post-files))&lt;/p&gt;
+</description>
+        <pubDate>Sat, 16 Jan 2016 22:17:40 +0400</pubDate>
+        <link>http://pasoev@github.io/programming/2016/01/16/2015-10-31-jekyll-posts-emacs-capture/</link>
+        <guid isPermaLink="true">http://pasoev@github.io/programming/2016/01/16/2015-10-31-jekyll-posts-emacs-capture/</guid>
+        
+        
+        <category>programming</category>
+        
+      </item>
+    
+      <item>
+        <title>Civilisation vs Domestication</title>
+        <description>&lt;p&gt;Wise Man’s Fear. It is a fantasy novel in the series Kingkiller
+Chronicles by Patrick Rothfuss. I rarely read fantasy novels with my
+mind looking for allegories in the background, but some works in this
+genre do really display significant instances of allegory with or
+without intention.&lt;/p&gt;
+
+&lt;p&gt;The analogy that came to my mind whilst reading that book is from the
+people of Tempi, in the descriptions of the way of Lethani. When they
+call themselves civilised and others - barbarians. However, what do
+they mean by civilisation? Do they mean the high speed trains and
+rotating doors? No they didn’t. They meant advancement in the other
+area of human activity. The advancement in morality, about honour.&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 31 Oct 2015 00:00:00 +0400</pubDate>
-        <link>http://pasoev@github.io/programming/2015/10/31/jekyll-posts-emacs-capture/</link>
-        <guid isPermaLink="true">http://pasoev@github.io/programming/2015/10/31/jekyll-posts-emacs-capture/</guid>
+        <pubDate>Tue, 17 Nov 2015 13:56:16 +0400</pubDate>
+        <link>http://pasoev@github.io/simpler/2015/11/17/2015-11-15-civilisation-vs-domestication/</link>
+        <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/11/17/2015-11-15-civilisation-vs-domestication/</guid>
+        
+        <category>Fantasy</category>
         
         
-        <category>Programming</category>
+        <category>simpler</category>
+        
+      </item>
+    
+      <item>
+        <title>About Minimalism and Simpler Life</title>
+        <description>
+</description>
+        <pubDate>Tue, 17 Nov 2015 13:56:14 +0400</pubDate>
+        <link>http://pasoev@github.io/simpler/2015/11/17/2015-11-15-minimalism-simpler-life/</link>
+        <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/11/17/2015-11-15-minimalism-simpler-life/</guid>
+        
+        
+        <category>simpler</category>
+        
+      </item>
+    
+      <item>
+        <title>Another Way to Plan Your Work with Emacs</title>
+        <description>
+</description>
+        <pubDate>Wed, 11 Nov 2015 00:01:36 +0400</pubDate>
+        <link>http://pasoev@github.io/simpler/2015/11/11/another-day-planner/</link>
+        <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/11/11/another-day-planner/</guid>
+        
+        
+        <category>simpler</category>
+        
+      </item>
+    
+      <item>
+        <title>On Measuring Human Development</title>
+        <description>
+</description>
+        <pubDate>Tue, 10 Nov 2015 20:35:29 +0400</pubDate>
+        <link>http://pasoev@github.io/simpler/2015/11/10/2015-11-10-on-measuring-human-development/</link>
+        <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/11/10/2015-11-10-on-measuring-human-development/</guid>
+        
+        
+        <category>simpler</category>
         
       </item>
     
@@ -183,14 +192,14 @@ legendary for their rigorousness. One such example is Spartan &lt;em&gt;Agoge&lt
 somebody argues about effectiveness of such regimes. However, it is
 rarely pointed out that not all of the exertions in such systems are
 directed to improvement. A lot of it is just about filtering people
-out.&lt;/p&gt;
+out. &lt;/p&gt;
 </description>
-        <pubDate>Sat, 31 Oct 2015 00:00:00 +0400</pubDate>
-        <link>http://pasoev@github.io/simpler/2015/10/31/training-as-testing/</link>
-        <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/10/31/training-as-testing/</guid>
+        <pubDate>Tue, 10 Nov 2015 20:28:43 +0400</pubDate>
+        <link>http://pasoev@github.io/simpler/2015/11/10/2015-10-31-Training-as-Testing/</link>
+        <guid isPermaLink="true">http://pasoev@github.io/simpler/2015/11/10/2015-10-31-Training-as-Testing/</guid>
         
         
-        <category>Simpler</category>
+        <category>simpler</category>
         
       </item>
     

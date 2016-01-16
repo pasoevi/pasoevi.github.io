@@ -6,13 +6,17 @@ category: "Programming"
 
 One of the good things about static site generators is that they do
 not dictate how you write posts and what tools you use. For those who
-choose to write posts in Emacs, here are a few function to automate
-file creation and other things. 
+choose to write posts in Emacs, here are a few functions to automate
+file creation and other things.
 
-If in some blogging systems for writing a new post you have to
+If in some blogging systems writing a new post means that you have to
 navigate to the web site, get authenticated, visit the page from which
-to create a new post and use the web-based editor, Jekyll allows you
-to do 
+to create a new post and use the web-based editor, with some
+configuration Jekyll allows you to do the same with only a few
+keystrokes without ever leaving Emacs.
+
+One approach is to add a capture template which can be called by
+`Control-C c`.
 
 {% highlight emacs-lisp %}
 
@@ -29,13 +33,13 @@ to do
 
 ("p" "Post" plain (file  (create-new-post)) 
              "---\nlayout: post\ntitle: %? \n---\n")
-	    
-{% endhighlight %}
 
 (create-new-post)
 
+{% endhighlight %}
 
---------------------------------------------------------------------------------
+
+
 (require 'cl)
 
 (defun string/starts-with (string prefix)
@@ -57,4 +61,3 @@ to do
 
 (let ((post-files (directory-files "~/blog/_posts")))
   (filter 'numberp post-files))
-
