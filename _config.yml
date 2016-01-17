@@ -8,5 +8,5 @@ github_username:  pasoev
 highlighters: pygments
 # Build settings
 markdown: kramdown
-# permalink: pretty
-permalink: /:year/:month/:day/:title/
+permalink: pretty
+

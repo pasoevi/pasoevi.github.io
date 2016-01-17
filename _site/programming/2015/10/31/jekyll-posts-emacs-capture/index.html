@@ -68,13 +68,16 @@
             
         </h1>
         
+        <p class="meta">Oct 31, 2015</p>
+        
     </header>
 
     <article class="post-content">
-        <p>One of the good things about static site generators is that they do
-not dictate how you write posts and what tools you use. For those who
+        <p>One of the advantages of static site generators is that they do not
+dictate how you write posts and what tools you use. For those who
 choose to write posts in Emacs, here are a few functions to automate
-file creation and other things.</p>
+file creation, finding and resuming the drafts and marking them as
+published.</p>
 
 <p>If in some blogging systems writing a new post means that you have to
 navigate to the web site, get authenticated, visit the page from which
@@ -82,7 +85,7 @@ to create a new post and use the web-based editor, with some
 configuration Jekyll allows you to do the same with only a few
 keystrokes without ever leaving Emacs.</p>
 
-<p>One approach is to add a capture template which can be called by
+<p>One approach is to add a capture template which is usually bound to
 <code>Control-C c</code>.</p>
 
 <div class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">today-is</span> <span class="p">()</span>
@@ -101,7 +104,7 @@ keystrokes without ever leaving Emacs.</p>
 	 <span class="s">&quot;---\nlayout: post\ntitle: %? \n---\n&quot;</span><span class="p">))</span></code></pre></div>
 
 <p>It is possible to further integrate it with Emacs by writing a
-function that displays a list of posts in the drafts folder and
+function that displays a list of posts in the drafts directory and
 provides an easy way to choose a post to resume.</p>
 
 <div class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">jekyll-drafts</span> <span class="p">()</span>
@@ -116,8 +119,25 @@ provides an easy way to choose a post to resume.</p>
                           <span class="p">(</span><span class="nv">jekyll-drafts</span><span class="p">)</span> <span class="no">nil</span> <span class="no">t</span> <span class="s">&quot;&quot;</span><span class="p">)))</span>
   <span class="p">(</span><span class="nv">find-file</span> <span class="nv">post</span><span class="p">))</span></code></pre></div>
 
-<p>The above function can be calling from <code>Meta-X</code> or a key binding could
-be added for it.</p>
+<p>Another convenience function can be defined to move finished drafts to
+the <code>_posts</code> directory.</p>
+
+<div class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">jekyll-mark-published</span> <span class="p">(</span><span class="nv">post</span><span class="p">)</span>
+  <span class="s">&quot;Mark one of the posts from the Jekyll drafts directory as published.</span>
+<span class="s">   This actually means moving the post from the _drafts to the _posts </span>
+<span class="s">   directory.&quot;</span>
+  <span class="p">(</span><span class="nv">interactive</span>
+   <span class="p">(</span><span class="nb">list</span> <span class="p">(</span><span class="nv">completing-read</span> <span class="s">&quot;Post to mark as published: &quot;</span>
+                          <span class="p">(</span><span class="nv">jekyll-drafts</span><span class="p">)</span> <span class="no">nil</span> <span class="no">t</span> <span class="s">&quot;&quot;</span><span class="p">)))</span>
+  <span class="p">(</span><span class="nv">copy-file</span> <span class="p">(</span><span class="nv">concat</span>
+              <span class="p">(</span><span class="nv">file-name-as-directory</span> <span class="s">&quot;~/blog/_drafts&quot;</span><span class="p">)</span>
+              <span class="nv">post</span><span class="p">)</span>
+             <span class="p">(</span><span class="nv">concat</span>
+              <span class="p">(</span><span class="nv">file-name-as-directory</span> <span class="s">&quot;~/blog/_posts&quot;</span><span class="p">)</span>
+              <span class="nv">post</span><span class="p">)))</span></code></pre></div>
+
+<p>The above functions can be called from <code>Meta-X</code> or a key binding
+could be added for it.</p>
 
     </article>
 
