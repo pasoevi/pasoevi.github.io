@@ -73,13 +73,9 @@ the `_posts` directory.
   (interactive
    (list (completing-read "Post to mark as published: "
                           (jekyll-drafts) nil t "")))
-  (copy-file (concat
-              (file-name-as-directory "~/blog/_drafts")
-              post)
-             (concat
-              (file-name-as-directory "~/blog/_posts")
-              post)))
-              
+  (copy-file (concat (file-name-as-directory "~/blog/_drafts") post)
+             (concat (file-name-as-directory "~/blog/_posts") post)))
+
 {% endhighlight %}
 
 The above functions can be called from `Meta-X` or a key binding
