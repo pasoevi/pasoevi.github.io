@@ -5,9 +5,189 @@
     <description>A blog to accompany the Github repositories from the same user.</description>
     <link>http://pasoev.github.io/</link>
     <atom:link href="http://pasoev.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 19 Jan 2016 17:54:39 +0400</pubDate>
-    <lastBuildDate>Tue, 19 Jan 2016 17:54:39 +0400</lastBuildDate>
+    <pubDate>Tue, 19 Jan 2016 19:44:07 +0400</pubDate>
+    <lastBuildDate>Tue, 19 Jan 2016 19:44:07 +0400</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
+    
+      <item>
+        <title>Guile Cookbook</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#guile-scheme&quot;&gt;Guile Scheme&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#modules&quot;&gt;Modules&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#simply-importing-modules&quot;&gt;Simply Importing modules&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#strings&quot;&gt;Strings&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#time-and-date&quot;&gt;Time and Date&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#io&quot;&gt;IO&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#displaying-text&quot;&gt;Displaying text&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#c---scheme&quot;&gt;C &amp;lt;-&amp;gt; Scheme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;guile-scheme&quot;&gt;Guile Scheme&lt;/h1&gt;
+
+&lt;h2 id=&quot;modules&quot;&gt;Modules&lt;/h2&gt;
+
+&lt;h3 id=&quot;simply-importing-modules&quot;&gt;Simply Importing modules&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;(use-modules (srfi srfi-19))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;strings&quot;&gt;Strings&lt;/h2&gt;
+
+&lt;h2 id=&quot;time-and-date&quot;&gt;Time and Date&lt;/h2&gt;
+
+&lt;h2 id=&quot;io&quot;&gt;IO&lt;/h2&gt;
+
+&lt;h3 id=&quot;displaying-text&quot;&gt;Displaying text&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;(display &quot;Guile Cookbook&quot;)
+(newline)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&quot;c---scheme&quot;&gt;C &amp;lt;-&amp;gt; Scheme&lt;/h1&gt;
+</description>
+        <pubDate>Tue, 19 Jan 2016 16:16:36 +0400</pubDate>
+        <link>http://pasoev.github.io/2016/01/19/2016-01-19-guile-cookbook/</link>
+        <guid isPermaLink="true">http://pasoev.github.io/2016/01/19/2016-01-19-guile-cookbook/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Why There has to be God in Stoicism</title>
+        <description>
+</description>
+        <pubDate>Sat, 16 Jan 2016 22:19:22 +0400</pubDate>
+        <link>http://pasoev.github.io/simpler/2016/01/16/stoicism-and-god/</link>
+        <guid isPermaLink="true">http://pasoev.github.io/simpler/2016/01/16/stoicism-and-god/</guid>
+        
+        
+        <category>simpler</category>
+        
+      </item>
+    
+      <item>
+        <title>SDL and OpenGL Demos</title>
+        <description>
+</description>
+        <pubDate>Sat, 16 Jan 2016 22:19:00 +0400</pubDate>
+        <link>http://pasoev.github.io/programming/2016/01/16/sdl-opengl/</link>
+        <guid isPermaLink="true">http://pasoev.github.io/programming/2016/01/16/sdl-opengl/</guid>
+        
+        <category>gamedev</category>
+        
+        <category>programming</category>
+        
+        <category>SDL</category>
+        
+        <category>OpenGL</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
+    
+      <item>
+        <title>About Progress</title>
+        <description>
+</description>
+        <pubDate>Sat, 16 Jan 2016 22:18:52 +0400</pubDate>
+        <link>http://pasoev.github.io/simpler/2016/01/16/about-progress/</link>
+        <guid isPermaLink="true">http://pasoev.github.io/simpler/2016/01/16/about-progress/</guid>
+        
+        
+        <category>simpler</category>
+        
+      </item>
+    
+      <item>
+        <title>Civilisation vs Domestication</title>
+        <description>&lt;p&gt;Wise Man’s Fear. It is a fantasy novel in the series Kingkiller
+Chronicles by Patrick Rothfuss. I rarely read fantasy novels with my
+mind looking for allegories in the background, but some works in this
+genre do really display significant instances of allegory with or
+without intention.&lt;/p&gt;
+
+&lt;p&gt;The analogy that came to my mind whilst reading that book is from the
+people of Tempi, in the descriptions of the way of Lethani. When they
+call themselves civilised and others - barbarians. However, what do
+they mean by civilisation? Do they mean the high speed trains and
+rotating doors? No they didn’t. They meant advancement in the other
+area of human activity. The advancement in morality, about honour.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 17 Nov 2015 13:56:16 +0400</pubDate>
+        <link>http://pasoev.github.io/simpler/2015/11/17/2015-11-15-civilisation-vs-domestication/</link>
+        <guid isPermaLink="true">http://pasoev.github.io/simpler/2015/11/17/2015-11-15-civilisation-vs-domestication/</guid>
+        
+        <category>Fantasy</category>
+        
+        
+        <category>simpler</category>
+        
+      </item>
+    
+      <item>
+        <title>About Minimalism and Simpler Life</title>
+        <description>
+</description>
+        <pubDate>Tue, 17 Nov 2015 13:56:14 +0400</pubDate>
+        <link>http://pasoev.github.io/simpler/2015/11/17/2015-11-15-minimalism-simpler-life/</link>
+        <guid isPermaLink="true">http://pasoev.github.io/simpler/2015/11/17/2015-11-15-minimalism-simpler-life/</guid>
+        
+        
+        <category>simpler</category>
+        
+      </item>
+    
+      <item>
+        <title>Another Way to Plan Your Work with Emacs</title>
+        <description>
+</description>
+        <pubDate>Wed, 11 Nov 2015 00:01:36 +0400</pubDate>
+        <link>http://pasoev.github.io/simpler/2015/11/11/another-day-planner/</link>
+        <guid isPermaLink="true">http://pasoev.github.io/simpler/2015/11/11/another-day-planner/</guid>
+        
+        
+        <category>simpler</category>
+        
+      </item>
+    
+      <item>
+        <title>On Measuring Human Development</title>
+        <description>
+</description>
+        <pubDate>Tue, 10 Nov 2015 20:35:29 +0400</pubDate>
+        <link>http://pasoev.github.io/simpler/2015/11/10/2015-11-10-on-measuring-human-development/</link>
+        <guid isPermaLink="true">http://pasoev.github.io/simpler/2015/11/10/2015-11-10-on-measuring-human-development/</guid>
+        
+        
+        <category>simpler</category>
+        
+      </item>
+    
+      <item>
+        <title>Training as Testing</title>
+        <description>&lt;p&gt;There is some worship of training, of improvement and living in strict
+discipline. Many systems of training from present and past are
+legendary for their rigorousness. One such example is Spartan &lt;em&gt;Agoge&lt;/em&gt;. It is rare that
+somebody argues about effectiveness of such regimes. However, it is
+rarely pointed out that not all of the exertions in such systems are
+directed to improvement. A lot of it is just about filtering people
+out. &lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Nov 2015 20:28:43 +0400</pubDate>
+        <link>http://pasoev.github.io/simpler/2015/11/10/2015-10-31-Training-as-Testing/</link>
+        <guid isPermaLink="true">http://pasoev.github.io/simpler/2015/11/10/2015-10-31-Training-as-Testing/</guid>
+        
+        
+        <category>simpler</category>
+        
+      </item>
     
       <item>
         <title>Emacs Shortcuts for Writing Posts Using Jekyll</title>
