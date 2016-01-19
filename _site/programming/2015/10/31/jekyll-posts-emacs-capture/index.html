@@ -7,7 +7,7 @@
     <title>Emacs Shortcuts for Writing Posts Using Jekyll</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="A blog to accompany the Github repositories from the same user.">
-    <link rel="canonical" href="http://pasoev@github.io/programming/2015/10/31/jekyll-posts-emacs-capture/">
+    <link rel="canonical" href="http://pasoev.github.io/programming/2015/10/31/jekyll-posts-emacs-capture/">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
@@ -129,12 +129,8 @@ the <code>_posts</code> directory.</p>
   <span class="p">(</span><span class="nv">interactive</span>
    <span class="p">(</span><span class="nb">list</span> <span class="p">(</span><span class="nv">completing-read</span> <span class="s">&quot;Post to mark as published: &quot;</span>
                           <span class="p">(</span><span class="nv">jekyll-drafts</span><span class="p">)</span> <span class="no">nil</span> <span class="no">t</span> <span class="s">&quot;&quot;</span><span class="p">)))</span>
-  <span class="p">(</span><span class="nv">copy-file</span> <span class="p">(</span><span class="nv">concat</span>
-              <span class="p">(</span><span class="nv">file-name-as-directory</span> <span class="s">&quot;~/blog/_drafts&quot;</span><span class="p">)</span>
-              <span class="nv">post</span><span class="p">)</span>
-             <span class="p">(</span><span class="nv">concat</span>
-              <span class="p">(</span><span class="nv">file-name-as-directory</span> <span class="s">&quot;~/blog/_posts&quot;</span><span class="p">)</span>
-              <span class="nv">post</span><span class="p">)))</span></code></pre></div>
+  <span class="p">(</span><span class="nv">copy-file</span> <span class="p">(</span><span class="nv">concat</span> <span class="p">(</span><span class="nv">file-name-as-directory</span> <span class="s">&quot;~/blog/_drafts&quot;</span><span class="p">)</span> <span class="nv">post</span><span class="p">)</span>
+             <span class="p">(</span><span class="nv">concat</span> <span class="p">(</span><span class="nv">file-name-as-directory</span> <span class="s">&quot;~/blog/_posts&quot;</span><span class="p">)</span> <span class="nv">post</span><span class="p">)))</span></code></pre></div>
 
 <p>The above functions can be called from <code>Meta-X</code> or a key binding
 could be added for it.</p>
