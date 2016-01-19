@@ -42,6 +42,10 @@ One approach is to add a capture template which is usually bound to
 
 {% endhighlight %}
 
+The above function automatically creates the file in the `_posts`
+directory with the file name containing today's date and the short
+title of the post which is assumed to be at the top of the kill-ring.
+
 ## Finding Drafts
 
 It is possible to further integrate it with Emacs by writing a

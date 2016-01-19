@@ -5,8 +5,8 @@
     <description>A blog to accompany the Github repositories from the same user.</description>
     <link>http://pasoev.github.io/</link>
     <atom:link href="http://pasoev.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 19 Jan 2016 17:15:34 +0400</pubDate>
-    <lastBuildDate>Tue, 19 Jan 2016 17:15:34 +0400</lastBuildDate>
+    <pubDate>Tue, 19 Jan 2016 17:29:28 +0400</pubDate>
+    <lastBuildDate>Tue, 19 Jan 2016 17:29:28 +0400</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -222,6 +222,10 @@ keystrokes without ever leaving Emacs.&lt;/p&gt;
 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-capture-templates&lt;/span&gt;
 	&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;p&amp;quot;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Post&amp;quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;plain&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file&lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;jekyll-new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 	 &lt;span class=&quot;s&quot;&gt;&amp;quot;---\nlayout: post\ntitle: %? \n---\n&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The above function automatically creates the file in the &lt;code&gt;_posts&lt;/code&gt;
+directory with the file name containing today’s date and the short
+title of the post which is assumed to be at the top of the kill-ring.&lt;/p&gt;
 
 &lt;h2 id=&quot;finding-drafts&quot;&gt;Finding Drafts&lt;/h2&gt;
 
