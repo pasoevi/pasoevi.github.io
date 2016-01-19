@@ -82,6 +82,8 @@ to create a new post and use the web-based editor, with some
 configuration Jekyll allows you to do the same with only a few
 keystrokes without ever leaving Emacs.</p>
 
+<h2 id="using-org-capture">Using Org Capture</h2>
+
 <p>One approach is to add a capture template which is usually bound to
 <code>Control-C c</code>.</p>
 
@@ -100,6 +102,8 @@ keystrokes without ever leaving Emacs.</p>
 	<span class="p">(</span><span class="s">&quot;p&quot;</span> <span class="s">&quot;Post&quot;</span> <span class="nv">plain</span> <span class="p">(</span><span class="nv">file</span>  <span class="p">(</span><span class="nv">jekyll-new</span><span class="p">))</span>
 	 <span class="s">&quot;---\nlayout: post\ntitle: %? \n---\n&quot;</span><span class="p">))</span></code></pre></div>
 
+<h2 id="finding-drafts">Finding Drafts</h2>
+
 <p>It is possible to further integrate it with Emacs by writing a
 function that displays a list of posts in the drafts directory and
 provides an easy way to choose a post to resume.</p>
@@ -115,6 +119,8 @@ provides an easy way to choose a post to resume.</p>
    <span class="p">(</span><span class="nb">list</span> <span class="p">(</span><span class="nv">completing-read</span> <span class="s">&quot;Post to resume: &quot;</span>
                           <span class="p">(</span><span class="nv">jekyll-drafts</span><span class="p">)</span> <span class="no">nil</span> <span class="no">t</span> <span class="s">&quot;&quot;</span><span class="p">)))</span>
   <span class="p">(</span><span class="nv">find-file</span> <span class="nv">post</span><span class="p">))</span></code></pre></div>
+
+<h2 id="marking-post-drafts-as-published">Marking Post Drafts as Published</h2>
 
 <p>Another convenience function can be defined to move finished drafts to
 the <code>_posts</code> directory.</p>

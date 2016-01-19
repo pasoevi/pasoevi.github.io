@@ -5,8 +5,8 @@
     <description>A blog to accompany the Github repositories from the same user.</description>
     <link>http://pasoev.github.io/</link>
     <atom:link href="http://pasoev.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 19 Jan 2016 17:11:15 +0400</pubDate>
-    <lastBuildDate>Tue, 19 Jan 2016 17:11:15 +0400</lastBuildDate>
+    <pubDate>Tue, 19 Jan 2016 17:15:34 +0400</pubDate>
+    <lastBuildDate>Tue, 19 Jan 2016 17:15:34 +0400</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -203,6 +203,8 @@ to create a new post and use the web-based editor, with some
 configuration Jekyll allows you to do the same with only a few
 keystrokes without ever leaving Emacs.&lt;/p&gt;
 
+&lt;h2 id=&quot;using-org-capture&quot;&gt;Using Org Capture&lt;/h2&gt;
+
 &lt;p&gt;One approach is to add a capture template which is usually bound to
 &lt;code&gt;Control-C c&lt;/code&gt;.&lt;/p&gt;
 
@@ -221,6 +223,8 @@ keystrokes without ever leaving Emacs.&lt;/p&gt;
 	&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;p&amp;quot;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Post&amp;quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;plain&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file&lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;jekyll-new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 	 &lt;span class=&quot;s&quot;&gt;&amp;quot;---\nlayout: post\ntitle: %? \n---\n&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
+&lt;h2 id=&quot;finding-drafts&quot;&gt;Finding Drafts&lt;/h2&gt;
+
 &lt;p&gt;It is possible to further integrate it with Emacs by writing a
 function that displays a list of posts in the drafts directory and
 provides an easy way to choose a post to resume.&lt;/p&gt;
@@ -236,6 +240,8 @@ provides an easy way to choose a post to resume.&lt;/p&gt;
    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;completing-read&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Post to resume: &amp;quot;&lt;/span&gt;
                           &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;jekyll-drafts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;find-file&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;marking-post-drafts-as-published&quot;&gt;Marking Post Drafts as Published&lt;/h2&gt;
 
 &lt;p&gt;Another convenience function can be defined to move finished drafts to
 the &lt;code&gt;_posts&lt;/code&gt; directory.&lt;/p&gt;

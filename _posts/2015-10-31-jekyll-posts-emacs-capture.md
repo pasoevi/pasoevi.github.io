@@ -18,6 +18,8 @@ to create a new post and use the web-based editor, with some
 configuration Jekyll allows you to do the same with only a few
 keystrokes without ever leaving Emacs.
 
+## Using Org Capture
+
 One approach is to add a capture template which is usually bound to
 `Control-C c`.
 
@@ -40,6 +42,8 @@ One approach is to add a capture template which is usually bound to
 
 {% endhighlight %}
 
+## Finding Drafts
+
 It is possible to further integrate it with Emacs by writing a
 function that displays a list of posts in the drafts directory and
 provides an easy way to choose a post to resume.
@@ -60,6 +64,8 @@ provides an easy way to choose a post to resume.
 
 
 {% endhighlight %}
+
+## Marking Post Drafts as Published
 
 Another convenience function can be defined to move finished drafts to
 the `_posts` directory.
