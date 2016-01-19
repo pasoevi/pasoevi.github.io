@@ -1,10 +1,6 @@
 sessions:
-- _id: ODMyMzI=
-  created: 2016-01-17 17:04:17.595930+00:00
-  name: tester
-  path: /programming/2016/01/17/2015-10-31-jekyll-posts-emacs-capture/
-  text: test comment 1
-- _id: ODMyMzA=
-  created: 2016-01-17 16:12:20.802148+00:00
-  name: Sergi
-  text: Test comment
+- _id: ODMyNjU=
+  created: 2016-01-19 11:49:04.996210+00:00
+  name: fnmurillo
+  path: /programming/2015/10/31/jekyll-posts-emacs-capture/
+  text: I found this post helpful in improving my workflow. Thanks dood.
