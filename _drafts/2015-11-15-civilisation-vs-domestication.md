@@ -17,6 +17,3 @@ call themselves civilised and others - barbarians. However, what do
 they mean by civilisation? Do they mean the high speed trains and
 rotating doors? No they didn't. They meant advancement in the other
 area of human activity. The advancement in morality, about honour.
-
-
-

@@ -5,9 +5,56 @@
     <description>A blog to accompany the Github repositories from the same user.</description>
     <link>http://pasoev.github.io/</link>
     <atom:link href="http://pasoev.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 19 Jan 2016 19:44:07 +0400</pubDate>
-    <lastBuildDate>Tue, 19 Jan 2016 19:44:07 +0400</lastBuildDate>
+    <pubDate>Wed, 20 Jan 2016 16:02:46 +0400</pubDate>
+    <lastBuildDate>Wed, 20 Jan 2016 16:02:46 +0400</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
+    
+      <item>
+        <title>Civilisation vs Domestication</title>
+        <description>&lt;p&gt;Wise Man’s Fear. It is a fantasy novel in the series Kingkiller
+Chronicles by Patrick Rothfuss. I rarely read fantasy novels with my
+mind looking for allegories in the background, but some works in this
+genre do really display significant instances of allegory with or
+without intention.&lt;/p&gt;
+
+&lt;p&gt;The analogy that came to my mind whilst reading that book is from the
+people of Tempi, in the descriptions of the way of Lethani. When they
+call themselves civilised and others - barbarians. However, what do
+they mean by civilisation? Do they mean the high speed trains and
+rotating doors? No they didn’t. They meant advancement in the other
+area of human activity. The advancement in morality, about honour.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Jan 2016 16:02:46 +0400</pubDate>
+        <link>http://pasoev.github.io/simpler/2016/01/20/2015-11-15-civilisation-vs-domestication/</link>
+        <guid isPermaLink="true">http://pasoev.github.io/simpler/2016/01/20/2015-11-15-civilisation-vs-domestication/</guid>
+        
+        <category>Fantasy</category>
+        
+        
+        <category>simpler</category>
+        
+      </item>
+    
+      <item>
+        <title>Training as Testing</title>
+        <description>&lt;p&gt;There is some worship of training, of improvement and living in strict
+discipline. Many systems of training from present and past are
+legendary for their rigorousness. One such example is Spartan
+&lt;em&gt;Agoge&lt;/em&gt;. It is rare that somebody argues about effectiveness of such
+regimes. However, it is rarely pointed out that not all of the
+exertions in such systems are directed to improvement. A lot of it is
+just about filtering people out.&lt;/p&gt;
+
+&lt;p&gt;A modern equivalent of this is. &lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Jan 2016 16:00:12 +0400</pubDate>
+        <link>http://pasoev.github.io/simpler/2016/01/20/2015-10-31-Training-as-Testing/</link>
+        <guid isPermaLink="true">http://pasoev.github.io/simpler/2016/01/20/2015-10-31-Training-as-Testing/</guid>
+        
+        
+        <category>simpler</category>
+        
+      </item>
     
       <item>
         <title>Guile Cookbook</title>
@@ -105,33 +152,6 @@
       </item>
     
       <item>
-        <title>Civilisation vs Domestication</title>
-        <description>&lt;p&gt;Wise Man’s Fear. It is a fantasy novel in the series Kingkiller
-Chronicles by Patrick Rothfuss. I rarely read fantasy novels with my
-mind looking for allegories in the background, but some works in this
-genre do really display significant instances of allegory with or
-without intention.&lt;/p&gt;
-
-&lt;p&gt;The analogy that came to my mind whilst reading that book is from the
-people of Tempi, in the descriptions of the way of Lethani. When they
-call themselves civilised and others - barbarians. However, what do
-they mean by civilisation? Do they mean the high speed trains and
-rotating doors? No they didn’t. They meant advancement in the other
-area of human activity. The advancement in morality, about honour.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 17 Nov 2015 13:56:16 +0400</pubDate>
-        <link>http://pasoev.github.io/simpler/2015/11/17/2015-11-15-civilisation-vs-domestication/</link>
-        <guid isPermaLink="true">http://pasoev.github.io/simpler/2015/11/17/2015-11-15-civilisation-vs-domestication/</guid>
-        
-        <category>Fantasy</category>
-        
-        
-        <category>simpler</category>
-        
-      </item>
-    
-      <item>
         <title>About Minimalism and Simpler Life</title>
         <description>
 </description>
@@ -164,25 +184,6 @@ area of human activity. The advancement in morality, about honour.&lt;/p&gt;
         <pubDate>Tue, 10 Nov 2015 20:35:29 +0400</pubDate>
         <link>http://pasoev.github.io/simpler/2015/11/10/2015-11-10-on-measuring-human-development/</link>
         <guid isPermaLink="true">http://pasoev.github.io/simpler/2015/11/10/2015-11-10-on-measuring-human-development/</guid>
-        
-        
-        <category>simpler</category>
-        
-      </item>
-    
-      <item>
-        <title>Training as Testing</title>
-        <description>&lt;p&gt;There is some worship of training, of improvement and living in strict
-discipline. Many systems of training from present and past are
-legendary for their rigorousness. One such example is Spartan &lt;em&gt;Agoge&lt;/em&gt;. It is rare that
-somebody argues about effectiveness of such regimes. However, it is
-rarely pointed out that not all of the exertions in such systems are
-directed to improvement. A lot of it is just about filtering people
-out. &lt;/p&gt;
-</description>
-        <pubDate>Tue, 10 Nov 2015 20:28:43 +0400</pubDate>
-        <link>http://pasoev.github.io/simpler/2015/11/10/2015-10-31-Training-as-Testing/</link>
-        <guid isPermaLink="true">http://pasoev.github.io/simpler/2015/11/10/2015-10-31-Training-as-Testing/</guid>
         
         
         <category>simpler</category>
