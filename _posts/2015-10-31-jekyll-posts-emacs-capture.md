@@ -64,7 +64,7 @@ provides an easy way to choose a post to resume.
   (interactive
    (list (completing-read "Post to resume: "
                           (jekyll-drafts) nil t "")))
-  (find-file post))
+    (find-file (concat (file-name-as-directory "~/blog/_drafts") post)))
 
 
 {% endhighlight %}
