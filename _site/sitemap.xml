@@ -3,6 +3,21 @@
   
     
     <url>
+      <loc>http://pasoev.github.io/2016/01/22/2016-01-19-guile-cookbook/</loc>
+      
+        <lastmod>2016-01-22T10:29:17+04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://pasoev.github.io/simpler/2016/01/20/2015-11-15-civilisation-vs-domestication/</loc>
       
         <lastmod>2016-01-20T16:02:46+04:00</lastmod>
@@ -21,21 +36,6 @@
       <loc>http://pasoev.github.io/simpler/2016/01/20/2015-10-31-Training-as-Testing/</loc>
       
         <lastmod>2016-01-20T16:00:12+04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://pasoev.github.io/2016/01/19/2016-01-19-guile-cookbook/</loc>
-      
-        <lastmod>2016-01-19T16:16:36+04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -170,7 +170,7 @@
     <url>
       <loc>http://pasoev.github.io</loc>
       
-        <lastmod>2016-01-21T23:37:20+04:00</lastmod>
+        <lastmod>2016-01-22T10:29:18+04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

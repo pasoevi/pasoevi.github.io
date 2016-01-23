@@ -5,9 +5,66 @@
     <description>A blog to accompany the Github repositories from the same user.</description>
     <link>http://pasoev.github.io/</link>
     <atom:link href="http://pasoev.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 21 Jan 2016 23:37:20 +0400</pubDate>
-    <lastBuildDate>Thu, 21 Jan 2016 23:37:20 +0400</lastBuildDate>
+    <pubDate>Fri, 22 Jan 2016 10:29:18 +0400</pubDate>
+    <lastBuildDate>Fri, 22 Jan 2016 10:29:18 +0400</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
+    
+      <item>
+        <title>Guile Cookbook</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#guile-scheme&quot;&gt;Guile Scheme&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#modules&quot;&gt;Modules&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#simply-importing-modules&quot;&gt;Simply Importing modules&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#strings&quot;&gt;Strings&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#time-and-date&quot;&gt;Time and Date&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#io&quot;&gt;IO&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#network&quot;&gt;Network&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#http-requests&quot;&gt;Http requests&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#displaying-text&quot;&gt;Displaying text&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#c---scheme&quot;&gt;C &amp;lt;-&amp;gt; Scheme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;guile-scheme&quot;&gt;Guile Scheme&lt;/h1&gt;
+
+&lt;h2 id=&quot;modules&quot;&gt;Modules&lt;/h2&gt;
+
+&lt;h3 id=&quot;simply-importing-modules&quot;&gt;Simply Importing modules&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;(use-modules (srfi srfi-19))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;strings&quot;&gt;Strings&lt;/h2&gt;
+
+&lt;h2 id=&quot;time-and-date&quot;&gt;Time and Date&lt;/h2&gt;
+
+&lt;h2 id=&quot;io&quot;&gt;IO&lt;/h2&gt;
+
+&lt;h2 id=&quot;network&quot;&gt;Network&lt;/h2&gt;
+
+&lt;h3 id=&quot;http-requests&quot;&gt;Http requests&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;(use-modules (web client))
+(http-get url #:streaming? #t)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;displaying-text&quot;&gt;Displaying text&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;(display &quot;Guile Cookbook&quot;)
+(newline)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&quot;c---scheme&quot;&gt;C &amp;lt;-&amp;gt; Scheme&lt;/h1&gt;
+</description>
+        <pubDate>Fri, 22 Jan 2016 10:29:17 +0400</pubDate>
+        <link>http://pasoev.github.io/2016/01/22/2016-01-19-guile-cookbook/</link>
+        <guid isPermaLink="true">http://pasoev.github.io/2016/01/22/2016-01-19-guile-cookbook/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Civilisation vs Domestication</title>
@@ -53,54 +110,6 @@ just about filtering people out.&lt;/p&gt;
         
         
         <category>simpler</category>
-        
-      </item>
-    
-      <item>
-        <title>Guile Cookbook</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#guile-scheme&quot;&gt;Guile Scheme&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#modules&quot;&gt;Modules&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#simply-importing-modules&quot;&gt;Simply Importing modules&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#strings&quot;&gt;Strings&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#time-and-date&quot;&gt;Time and Date&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#io&quot;&gt;IO&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#displaying-text&quot;&gt;Displaying text&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#c---scheme&quot;&gt;C &amp;lt;-&amp;gt; Scheme&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;guile-scheme&quot;&gt;Guile Scheme&lt;/h1&gt;
-
-&lt;h2 id=&quot;modules&quot;&gt;Modules&lt;/h2&gt;
-
-&lt;h3 id=&quot;simply-importing-modules&quot;&gt;Simply Importing modules&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;(use-modules (srfi srfi-19))
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;strings&quot;&gt;Strings&lt;/h2&gt;
-
-&lt;h2 id=&quot;time-and-date&quot;&gt;Time and Date&lt;/h2&gt;
-
-&lt;h2 id=&quot;io&quot;&gt;IO&lt;/h2&gt;
-
-&lt;h3 id=&quot;displaying-text&quot;&gt;Displaying text&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;(display &quot;Guile Cookbook&quot;)
-(newline)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&quot;c---scheme&quot;&gt;C &amp;lt;-&amp;gt; Scheme&lt;/h1&gt;
-</description>
-        <pubDate>Tue, 19 Jan 2016 16:16:36 +0400</pubDate>
-        <link>http://pasoev.github.io/2016/01/19/2016-01-19-guile-cookbook/</link>
-        <guid isPermaLink="true">http://pasoev.github.io/2016/01/19/2016-01-19-guile-cookbook/</guid>
-        
         
       </item>
     
@@ -244,7 +253,7 @@ provides an easy way to choose a post to resume.&lt;/p&gt;
   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;interactive&lt;/span&gt;
    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;completing-read&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Post to resume: &amp;quot;&lt;/span&gt;
                           &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;jekyll-drafts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;find-file&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;find-file&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;concat&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file-name-as-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;~/blog/_drafts&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;marking-post-drafts-as-published&quot;&gt;Marking Post Drafts as Published&lt;/h2&gt;
 

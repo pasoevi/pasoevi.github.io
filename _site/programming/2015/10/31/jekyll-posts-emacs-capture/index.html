@@ -122,7 +122,7 @@ provides an easy way to choose a post to resume.</p>
   <span class="p">(</span><span class="nv">interactive</span>
    <span class="p">(</span><span class="nb">list</span> <span class="p">(</span><span class="nv">completing-read</span> <span class="s">&quot;Post to resume: &quot;</span>
                           <span class="p">(</span><span class="nv">jekyll-drafts</span><span class="p">)</span> <span class="no">nil</span> <span class="no">t</span> <span class="s">&quot;&quot;</span><span class="p">)))</span>
-  <span class="p">(</span><span class="nv">find-file</span> <span class="nv">post</span><span class="p">))</span></code></pre></div>
+    <span class="p">(</span><span class="nv">find-file</span> <span class="p">(</span><span class="nv">concat</span> <span class="p">(</span><span class="nv">file-name-as-directory</span> <span class="s">&quot;~/blog/_drafts&quot;</span><span class="p">)</span> <span class="nv">post</span><span class="p">)))</span></code></pre></div>
 
 <h2 id="marking-post-drafts-as-published">Marking Post Drafts as Published</h2>
 

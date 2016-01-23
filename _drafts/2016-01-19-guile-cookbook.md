@@ -18,6 +18,16 @@ title: Guile Cookbook
 ## Time and Date
 
 ## IO
+    (open-file filename
+        (if binary "wb" "w")
+            #:encoding encoding)
+
+
+## Network
+
+### Http requests
+    (use-modules (web client))
+    (http-get url #:streaming? #t)
 
 ### Displaying text
     (display "Guile Cookbook")
