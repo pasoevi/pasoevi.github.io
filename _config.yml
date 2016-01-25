@@ -9,4 +9,6 @@ highlighters: pygments
 # Build settings
 markdown: kramdown
 permalink: pretty
-
+collections:
+  projects:
+    output: true

@@ -3,141 +3,6 @@
   
     
     <url>
-      <loc>http://pasoev.github.io/2016/01/22/2016-01-19-guile-cookbook/</loc>
-      
-        <lastmod>2016-01-22T10:29:17+04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://pasoev.github.io/simpler/2016/01/20/2015-11-15-civilisation-vs-domestication/</loc>
-      
-        <lastmod>2016-01-20T16:02:46+04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://pasoev.github.io/simpler/2016/01/20/2015-10-31-Training-as-Testing/</loc>
-      
-        <lastmod>2016-01-20T16:00:12+04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://pasoev.github.io/simpler/2016/01/16/stoicism-and-god/</loc>
-      
-        <lastmod>2016-01-16T22:19:22+04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://pasoev.github.io/programming/2016/01/16/sdl-opengl/</loc>
-      
-        <lastmod>2016-01-16T22:19:00+04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://pasoev.github.io/simpler/2016/01/16/about-progress/</loc>
-      
-        <lastmod>2016-01-16T22:18:52+04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://pasoev.github.io/simpler/2015/11/17/2015-11-15-minimalism-simpler-life/</loc>
-      
-        <lastmod>2015-11-17T13:56:14+04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://pasoev.github.io/simpler/2015/11/11/another-day-planner/</loc>
-      
-        <lastmod>2015-11-11T00:01:36+04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://pasoev.github.io/simpler/2015/11/10/2015-11-10-on-measuring-human-development/</loc>
-      
-        <lastmod>2015-11-10T20:35:29+04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
       <loc>http://pasoev.github.io/programming/2015/10/31/jekyll-posts-emacs-capture/</loc>
       
         <lastmod>2015-10-31T00:00:00+04:00</lastmod>
@@ -170,7 +35,7 @@
     <url>
       <loc>http://pasoev.github.io</loc>
       
-        <lastmod>2016-01-22T10:29:18+04:00</lastmod>
+        <lastmod>2016-01-26T00:20:03+04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -191,6 +56,41 @@
 
     
   
+    
+    
 
+    
+  
+
+  
+    
+      
+        <url>
+          <loc>http://pasoev.github.io/cookbook/</loc>
+          
+            <lastmod>2016-01-26T00:20:03+04:00</lastmod>
+          
+          
+            <changefreq>monthly</changefreq>
+          
+          
+            <priority>0.3</priority>
+          
+        </url>
+      
+        <url>
+          <loc>http://pasoev.github.io/words/</loc>
+          
+            <lastmod>2016-01-26T00:20:03+04:00</lastmod>
+          
+          
+            <changefreq>monthly</changefreq>
+          
+          
+            <priority>0.3</priority>
+          
+        </url>
+      
+    
   
 </urlset>

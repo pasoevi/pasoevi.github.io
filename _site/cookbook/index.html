@@ -3,10 +3,10 @@
 	<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Why There has to be God in Stoicism</title>
+    <title>Guile Cookbook</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="A blog to accompany the Github repositories from the same user.">
-    <link rel="canonical" href="http://pasoev.github.io/simpler/2016/01/16/stoicism-and-god/">
+    <link rel="canonical" href="http://pasoev.github.io/cookbook/">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
@@ -37,17 +37,35 @@
 	  <div style="clear: both;"></div>
 	  <nav class="site-nav">
       <div class="trigger">
-        
+        <!-- 
           <a class="page-link" href="/about/">About</a>
-        
+
+
           
-        
           
-        
+
+
           
-        
           
-        
+
+
+          
+          
+
+
+          
+          <a class="page-link" href="/projects/">Projects</a>
+
+
+          
+          
+
+
+          
+          -->
+          <a class="page-link" href="/about">About</a>
+          <a class="page-link" href="/projects">Projects</a>
+          
       </div>
     </nav>
   </div>
@@ -58,20 +76,80 @@
 	    <div class="wrap">
 		    <div class="post">
 
-    <header class="post-header">
-        <h1>
-            
-            Why There has to be God in Stoicism
-            
-        </h1>
-        
-    </header>
+  <header class="post-header">
+    <h1>Guile Cookbook</h1>
+  </header>
 
-    <article class="post-content">
-        
+  <article class="post-content">
+  <ul id="markdown-toc">
+  <li><a href="#guile-scheme">Guile Scheme</a>    <ul>
+      <li><a href="#modules">Modules</a>        <ul>
+          <li><a href="#simply-importing-modules">Simply Importing modules</a></li>
+        </ul>
+      </li>
+      <li><a href="#strings">Strings</a>        <ul>
+          <li><a href="#reverse-string">Reverse String</a></li>
+          <li><a href="#reverse-string-in-place">Reverse String in Place</a></li>
+        </ul>
+      </li>
+      <li><a href="#time-and-date">Time and Date</a></li>
+      <li><a href="#io">IO</a></li>
+      <li><a href="#network">Network</a>        <ul>
+          <li><a href="#http-requests">Http requests</a></li>
+          <li><a href="#displaying-text">Displaying text</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#c---scheme">C &lt;-&gt; Scheme</a></li>
+</ul>
 
-    </article>
-    <div class="ad">
+<h1 id="guile-scheme">Guile Scheme</h1>
+
+<h2 id="modules">Modules</h2>
+
+<h3 id="simply-importing-modules">Simply Importing modules</h3>
+
+<pre><code>(use-modules (srfi srfi-19))
+</code></pre>
+
+<h2 id="strings">Strings</h2>
+
+<h3 id="reverse-string">Reverse String</h3>
+<pre><code>(string-reverse str [start [end]])
+</code></pre>
+
+<h3 id="reverse-string-in-place">Reverse String in Place</h3>
+<pre><code>(string-reverse! str [start [end]])
+</code></pre>
+
+<h2 id="time-and-date">Time and Date</h2>
+
+<h2 id="io">IO</h2>
+<pre><code>(open-file filename
+    (if binary "wb" "w")
+        #:encoding encoding)
+</code></pre>
+
+<h2 id="network">Network</h2>
+
+<h3 id="http-requests">Http requests</h3>
+<pre><code>(use-modules (web client))
+(http-get url #:streaming? #t)
+</code></pre>
+
+<h3 id="displaying-text">Displaying text</h3>
+<pre><code>(display "Guile Cookbook")
+(newline)
+</code></pre>
+
+<h1 id="c---scheme">C &lt;-&gt; Scheme</h1>
+
+<p><a href="https://github.com/pasoev"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" /></a></p>
+
+  </article>
+
+      <div class="ad">
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- post -->
         <ins class="adsbygoogle"
@@ -84,46 +162,6 @@
         </script>
     </div>
 
-    <div class="comments">
-        <form action="http://pooleapp.com/stash/f5ca159d-90d6-40bd-a74a-735292a31c45/" method="post">
-            <input type="hidden" name="redirect_to" value="/simpler/2016/01/16/stoicism-and-god/" />
-            <input type="hidden" name="path" value="/simpler/2016/01/16/stoicism-and-god/" />
-            <table>
-                <tr>
-                    <td>
-                        <label for="name">Name</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="text" id="name" name="name" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="text">Comment</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p><textarea rows="5" cols="75" id="text" name="text"></textarea></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="submit" value="submit" />
-                    </td>
-                </tr>
-            </table>
-        </form>
-
-        
-        <ul class="listing comments">
-            
-            
-            
-        </ul>
-    </div>
 </div>
 
       </div>
