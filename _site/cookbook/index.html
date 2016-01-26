@@ -101,49 +101,72 @@
       </li>
     </ul>
   </li>
-  <li><a href="#c---scheme">C &lt;-&gt; Scheme</a></li>
+  <li><a href="#the-c-side">The C Side</a>    <ul>
+      <li><a href="#loading-a-scheme-source-file">Loading a Scheme source file</a></li>
+      <li><a href="#calling-a-scheme-function">Calling a Scheme function</a></li>
+    </ul>
+  </li>
 </ul>
 
-<h1 id="guile-scheme">Guile Scheme</h1>
+<h2 id="guile-scheme">Guile Scheme</h2>
 
-<h2 id="modules">Modules</h2>
+<h3 id="modules">Modules</h3>
 
-<h3 id="simply-importing-modules">Simply Importing modules</h3>
+<h4 id="simply-importing-modules">Simply Importing modules</h4>
 
 <pre><code>(use-modules (srfi srfi-19))
 </code></pre>
 
-<h2 id="strings">Strings</h2>
+<h3 id="strings">Strings</h3>
 
-<h3 id="reverse-string">Reverse String</h3>
+<h4 id="reverse-string">Reverse String</h4>
 <pre><code>(string-reverse str [start [end]])
 </code></pre>
 
-<h3 id="reverse-string-in-place">Reverse String in Place</h3>
+<h4 id="reverse-string-in-place">Reverse String in Place</h4>
 <pre><code>(string-reverse! str [start [end]])
 </code></pre>
 
-<h2 id="time-and-date">Time and Date</h2>
+<h3 id="time-and-date">Time and Date</h3>
 
-<h2 id="io">IO</h2>
+<h3 id="io">IO</h3>
 <pre><code>(open-file filename
     (if binary "wb" "w")
         #:encoding encoding)
 </code></pre>
 
-<h2 id="network">Network</h2>
+<h3 id="network">Network</h3>
 
-<h3 id="http-requests">Http requests</h3>
+<h4 id="http-requests">Http requests</h4>
 <pre><code>(use-modules (web client))
 (http-get url #:streaming? #t)
 </code></pre>
 
-<h3 id="displaying-text">Displaying text</h3>
+<h4 id="displaying-text">Displaying text</h4>
 <pre><code>(display "Guile Cookbook")
 (newline)
 </code></pre>
 
-<h1 id="c---scheme">C &lt;-&gt; Scheme</h1>
+<h2 id="the-c-side">The C Side</h2>
+
+<h3 id="loading-a-scheme-source-file">Loading a Scheme source file</h3>
+
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="n">scm_c_primitive_load</span> <span class="p">(</span><span class="s">&quot;source.scm&quot;</span><span class="p">);</span></code></pre></div>
+
+<h3 id="calling-a-scheme-function">Calling a Scheme function</h3>
+
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="cm">/* Declare SCM types for calling a function and reading its output */</span>
+<span class="n">SCM</span> <span class="n">func_symbol</span><span class="p">;</span>
+<span class="n">SCM</span> <span class="n">fun</span><span class="p">;</span>
+<span class="n">SCM</span> <span class="n">ret_val</span><span class="p">;</span>
+
+<span class="cm">/* Look up the symbol */</span>
+<span class="n">func_symbol</span> <span class="o">=</span> <span class="n">scm_c_lookup</span><span class="p">(</span><span class="s">&quot;function-name&quot;</span><span class="p">);</span>
+<span class="n">func</span> <span class="o">=</span> <span class="n">scm_variable_ref</span><span class="p">(</span><span class="n">func_symbol</span><span class="p">);</span>
+<span class="cm">/* Call a Scheme function taking one argument */</span>
+<span class="n">ret_val</span> <span class="o">=</span> <span class="n">scm_call_1</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">scm_from_locale_string</span><span class="p">(</span><span class="s">&quot;string argument&quot;</span><span class="p">));</span>
+
+<span class="cm">/* ret_val now holds the return value from the function */</span></code></pre></div>
 
 <p><a href="https://github.com/pasoev"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" /></a></p>
 
