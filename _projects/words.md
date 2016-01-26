@@ -1,6 +1,7 @@
 ---
 layout: page
 title: guile-words - Vocabulary for Scheme and C programs
+description: guile-words, vocabulary for Scheme
 permalink: /words/
 ---
 
@@ -27,7 +28,8 @@ Aside from a correct Guile installation, the library also requires
 *[guile-json](https://github.com/aconchillo/guile-json)*
 
 ## Installation
-get the source code
+
+Download the [tar file](https://github.com/pasoev/guile-words/releases/download/0.01/guile-words-0.01.tar.gz) or clone a git reository
 
 {% highlight bash %}
 git clone https://github.com/pasoev/guile-words.git
