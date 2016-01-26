@@ -61,7 +61,7 @@ package, typically `/usr/share/guile/site/`
 ### The C client program
 
 {% highlight bash %}
-wee synonym good
+app synonym good
 => full estimable honorable respectable beneficial just upright
 ... expert practiced proficient skillful skilful dear near
 depend quality vantage well thoroughly soundly
