@@ -2,6 +2,7 @@
 layout: page
 title: About
 description: A Programming blog
+ads: false
 permalink: /about/
 ---
 
