@@ -91,16 +91,16 @@ library immediately becomes available to the C application.
   {% highlight scheme %}
 
   (define actions
-      '((#:meaning . "define")
-        (#:synonym . "syn")
-        (#:antonym . "ant")
-        (#:related . "rel")
-        (#:similar . "sim")
-        (#:usage-examples . "usage-examples")
-        (#:hyphenation . "hyphenation")
-        (#:pronunciation . "pronunciations")
-        (#:define . "definitions"))
-        (#:newaction . "newaction" )) ; <== Your new action here
+   '((#:meaning . "define")
+     (#:synonym . "syn")
+     (#:antonym . "ant")
+     (#:related . "rel")
+     (#:similar . "sim")
+     (#:usage-examples . "usage-examples")
+     (#:hyphenation . "hyphenation")
+     (#:pronunciation . "pronunciations")
+     (#:define . "definitions"))
+     (#:newaction . "newaction" )) ; <== Your new action here
 
     {% endhighlight %}
 
@@ -110,7 +110,7 @@ and pass the newly defined action to it:
   {% highlight scheme %}
 
   (define (similar word)
-    (parse-bighuge word #:similar))
+    (parse-bighuge word #:newaction))
 
   {% endhighlight %}
 
