@@ -45,7 +45,7 @@ git clone https://github.com/pasoev/guile-words.git
 put the *words.scm* (or the compiled *.go*) file in the Guile site
 package, typically
 
-    `/usr/share/guile/site/`
+    /usr/share/guile/site/
 
 ## Usage examples
 
