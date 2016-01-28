@@ -100,6 +100,29 @@ in <em>C</em> (and <em>C++</em>) programs and libraries as well.</p>
   <li>Urbandict</li>
 </ul>
 
+<h2 id="documentation"><em>Documentation</em></h2>
+
+<ul id="markdown-toc">
+  <li><a href="#documentation"><em>Documentation</em></a></li>
+  <li><a href="#requirements">Requirements</a></li>
+  <li><a href="#installation">Installation</a></li>
+  <li><a href="#usage-examples">Usage examples</a>    <ul>
+      <li><a href="#the-scheme-library">The Scheme library</a></li>
+    </ul>
+  </li>
+  <li><a href="#reference">Reference</a>    <ul>
+      <li><a href="#available-functions">Available functions</a></li>
+      <li><a href="#adding-new-actions">Adding new actions</a>        <ul>
+          <li><a href="#adding-actions-to-already-supported-backends">Adding actions to already supported backends</a></li>
+        </ul>
+      </li>
+      <li><a href="#the-c-client-program">The C client program</a></li>
+    </ul>
+  </li>
+  <li><a href="#contributing">Contributing</a></li>
+  <li><a href="#copying">Copying</a></li>
+</ul>
+
 <h2 id="requirements">Requirements</h2>
 
 <p>Aside from a correct Guile installation, the library also requires
@@ -112,7 +135,10 @@ in <em>C</em> (and <em>C++</em>) programs and libraries as well.</p>
 <div class="highlight"><pre><code class="language-bash" data-lang="bash">git clone https://github.com/pasoev/guile-words.git</code></pre></div>
 
 <p>put the <em>words.scm</em> (or the compiled <em>.go</em>) file in the Guile site
-package, typically <code>/usr/share/guile/site/</code></p>
+package, typically</p>
+
+<pre><code>`/usr/share/guile/site/`
+</code></pre>
 
 <h2 id="usage-examples">Usage examples</h2>
 
@@ -130,6 +156,51 @@ package, typically <code>/usr/share/guile/site/</code></p>
 <span class="p">(</span><span class="nf">hyphenation</span> <span class="s">&quot;momentary&quot;</span><span class="p">)</span>
  <span class="k">=&gt; </span><span class="p">[</span><span class="err">{</span><span class="s">&quot;seq&quot;</span><span class="nv">:0,</span><span class="s">&quot;text&quot;</span><span class="nv">:</span><span class="s">&quot;mo&quot;</span><span class="o">,</span><span class="s">&quot;type&quot;</span><span class="nv">:</span><span class="s">&quot;stress&quot;</span><span class="err">}</span><span class="o">,</span>
  <span class="o">...</span> <span class="err">{</span><span class="s">&quot;seq&quot;</span><span class="nv">:1,</span><span class="s">&quot;text&quot;</span><span class="nv">:</span><span class="s">&quot;men&quot;</span><span class="err">}</span><span class="o">,</span><span class="err">{</span><span class="s">&quot;seq&quot;</span><span class="nv">:2,</span><span class="s">&quot;text&quot;</span><span class="nv">:</span><span class="s">&quot;ta&quot;</span><span class="err">}</span><span class="o">,</span><span class="err">{</span><span class="s">&quot;seq&quot;</span><span class="nv">:3,</span><span class="s">&quot;text&quot;</span><span class="nv">:</span><span class="s">&quot;ry&quot;</span><span class="err">}</span><span class="p">]</span></code></pre></div>
+
+<h2 id="reference">Reference</h2>
+
+<h3 id="available-functions">Available functions</h3>
+
+<ul>
+  <li>meaning</li>
+  <li>synonym</li>
+  <li>antonym</li>
+  <li>similar</li>
+  <li>related</li>
+  <li>hyphenation</li>
+  <li>pronunciation</li>
+</ul>
+
+<h3 id="adding-new-actions">Adding new actions</h3>
+
+<p>Every high-level look up command added as a function to the Scheme
+library immediately becomes available to the C application.</p>
+
+<h4 id="adding-actions-to-already-supported-backends">Adding actions to already supported backends</h4>
+
+<ul>
+  <li>Add a new action to the action list</li>
+</ul>
+
+<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="k">define </span><span class="nv">actions</span>
+      <span class="o">&#39;</span><span class="p">((</span><span class="o">#</span><span class="nv">:meaning</span> <span class="o">.</span> <span class="s">&quot;define&quot;</span><span class="p">)</span>
+        <span class="p">(</span><span class="o">#</span><span class="nv">:synonym</span> <span class="o">.</span> <span class="s">&quot;syn&quot;</span><span class="p">)</span>
+        <span class="p">(</span><span class="o">#</span><span class="nv">:antonym</span> <span class="o">.</span> <span class="s">&quot;ant&quot;</span><span class="p">)</span>
+        <span class="p">(</span><span class="o">#</span><span class="nv">:related</span> <span class="o">.</span> <span class="s">&quot;rel&quot;</span><span class="p">)</span>
+        <span class="p">(</span><span class="o">#</span><span class="nv">:similar</span> <span class="o">.</span> <span class="s">&quot;sim&quot;</span><span class="p">)</span>
+        <span class="p">(</span><span class="o">#</span><span class="nv">:usage-examples</span> <span class="o">.</span> <span class="s">&quot;usage-examples&quot;</span><span class="p">)</span>
+        <span class="p">(</span><span class="o">#</span><span class="nv">:hyphenation</span> <span class="o">.</span> <span class="s">&quot;hyphenation&quot;</span><span class="p">)</span>
+        <span class="p">(</span><span class="o">#</span><span class="nv">:pronunciation</span> <span class="o">.</span> <span class="s">&quot;pronunciations&quot;</span><span class="p">)</span>
+        <span class="p">(</span><span class="o">#</span><span class="nv">:define</span> <span class="o">.</span> <span class="s">&quot;definitions&quot;</span><span class="p">))</span>
+        <span class="p">(</span><span class="o">#</span><span class="nv">:newaction</span> <span class="o">.</span> <span class="s">&quot;newaction&quot;</span> <span class="p">))</span> <span class="c1">; &lt;== Your new action here</span></code></pre></div>
+
+<ul>
+  <li>Define a high level function that calls the existing backend service
+and pass the newly defined action to it: </li>
+</ul>
+
+<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nf">similar</span> <span class="nv">word</span><span class="p">)</span>
+    <span class="p">(</span><span class="nf">parse-bighuge</span> <span class="nv">word</span> <span class="o">#</span><span class="nv">:similar</span><span class="p">))</span></code></pre></div>
 
 <h3 id="the-c-client-program">The C client program</h3>
 

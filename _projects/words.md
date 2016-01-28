@@ -22,6 +22,11 @@ The program makes use of several online dictionaries:
 - BighugeLabs
 - Urbandict
 
+## *Documentation*
+
+* auto-gen TOC
+{:toc}
+
 ## Requirements
 
 Aside from a correct Guile installation, the library also requires
@@ -32,17 +37,21 @@ Aside from a correct Guile installation, the library also requires
 Download the [tar file](https://github.com/pasoev/guile-words/releases/download/0.01/guile-words-0.01.tar.gz) or clone a git reository
 
 {% highlight bash %}
+
 git clone https://github.com/pasoev/guile-words.git
+
 {% endhighlight %}
 
 put the *words.scm* (or the compiled *.go*) file in the Guile site
-package, typically `/usr/share/guile/site/`
+package, typically
 
+    `/usr/share/guile/site/`
 
 ## Usage examples
 
 ### The Scheme library
 {% highlight scheme %}
+
 (use-modules (words))
 
 (antonym "good")
@@ -58,9 +67,57 @@ package, typically `/usr/share/guile/site/`
 
 {% endhighlight %}
 
+## Reference
+
+### Available functions
+
+- meaning
+- synonym
+- antonym
+- similar
+- related
+- hyphenation
+- pronunciation
+
+### Adding new actions
+
+Every high-level look up command added as a function to the Scheme
+library immediately becomes available to the C application.
+
+#### Adding actions to already supported backends
+
+* Add a new action to the action list
+
+  {% highlight scheme %}
+
+  (define actions
+      '((#:meaning . "define")
+        (#:synonym . "syn")
+        (#:antonym . "ant")
+        (#:related . "rel")
+        (#:similar . "sim")
+        (#:usage-examples . "usage-examples")
+        (#:hyphenation . "hyphenation")
+        (#:pronunciation . "pronunciations")
+        (#:define . "definitions"))
+        (#:newaction . "newaction" )) ; <== Your new action here
+
+    {% endhighlight %}
+
+* Define a high level function that calls the existing backend service
+and pass the newly defined action to it: 
+
+  {% highlight scheme %}
+
+  (define (similar word)
+    (parse-bighuge word #:similar))
+
+  {% endhighlight %}
+
 ### The C client program
 
 {% highlight bash %}
+
 app synonym good
 => full estimable honorable respectable beneficial just upright
 ... expert practiced proficient skillful skilful dear near
