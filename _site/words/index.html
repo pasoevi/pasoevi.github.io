@@ -137,7 +137,7 @@ in <em>C</em> (and <em>C++</em>) programs and libraries as well.</p>
 <p>put the <em>words.scm</em> (or the compiled <em>.go</em>) file in the Guile site
 package, typically</p>
 
-<pre><code>`/usr/share/guile/site/`
+<pre><code>/usr/share/guile/site/
 </code></pre>
 
 <h2 id="usage-examples">Usage examples</h2>
@@ -183,16 +183,16 @@ library immediately becomes available to the C application.</p>
 </ul>
 
 <div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="k">define </span><span class="nv">actions</span>
-      <span class="o">&#39;</span><span class="p">((</span><span class="o">#</span><span class="nv">:meaning</span> <span class="o">.</span> <span class="s">&quot;define&quot;</span><span class="p">)</span>
-        <span class="p">(</span><span class="o">#</span><span class="nv">:synonym</span> <span class="o">.</span> <span class="s">&quot;syn&quot;</span><span class="p">)</span>
-        <span class="p">(</span><span class="o">#</span><span class="nv">:antonym</span> <span class="o">.</span> <span class="s">&quot;ant&quot;</span><span class="p">)</span>
-        <span class="p">(</span><span class="o">#</span><span class="nv">:related</span> <span class="o">.</span> <span class="s">&quot;rel&quot;</span><span class="p">)</span>
-        <span class="p">(</span><span class="o">#</span><span class="nv">:similar</span> <span class="o">.</span> <span class="s">&quot;sim&quot;</span><span class="p">)</span>
-        <span class="p">(</span><span class="o">#</span><span class="nv">:usage-examples</span> <span class="o">.</span> <span class="s">&quot;usage-examples&quot;</span><span class="p">)</span>
-        <span class="p">(</span><span class="o">#</span><span class="nv">:hyphenation</span> <span class="o">.</span> <span class="s">&quot;hyphenation&quot;</span><span class="p">)</span>
-        <span class="p">(</span><span class="o">#</span><span class="nv">:pronunciation</span> <span class="o">.</span> <span class="s">&quot;pronunciations&quot;</span><span class="p">)</span>
-        <span class="p">(</span><span class="o">#</span><span class="nv">:define</span> <span class="o">.</span> <span class="s">&quot;definitions&quot;</span><span class="p">))</span>
-        <span class="p">(</span><span class="o">#</span><span class="nv">:newaction</span> <span class="o">.</span> <span class="s">&quot;newaction&quot;</span> <span class="p">))</span> <span class="c1">; &lt;== Your new action here</span></code></pre></div>
+   <span class="o">&#39;</span><span class="p">((</span><span class="o">#</span><span class="nv">:meaning</span> <span class="o">.</span> <span class="s">&quot;define&quot;</span><span class="p">)</span>
+     <span class="p">(</span><span class="o">#</span><span class="nv">:synonym</span> <span class="o">.</span> <span class="s">&quot;syn&quot;</span><span class="p">)</span>
+     <span class="p">(</span><span class="o">#</span><span class="nv">:antonym</span> <span class="o">.</span> <span class="s">&quot;ant&quot;</span><span class="p">)</span>
+     <span class="p">(</span><span class="o">#</span><span class="nv">:related</span> <span class="o">.</span> <span class="s">&quot;rel&quot;</span><span class="p">)</span>
+     <span class="p">(</span><span class="o">#</span><span class="nv">:similar</span> <span class="o">.</span> <span class="s">&quot;sim&quot;</span><span class="p">)</span>
+     <span class="p">(</span><span class="o">#</span><span class="nv">:usage-examples</span> <span class="o">.</span> <span class="s">&quot;usage-examples&quot;</span><span class="p">)</span>
+     <span class="p">(</span><span class="o">#</span><span class="nv">:hyphenation</span> <span class="o">.</span> <span class="s">&quot;hyphenation&quot;</span><span class="p">)</span>
+     <span class="p">(</span><span class="o">#</span><span class="nv">:pronunciation</span> <span class="o">.</span> <span class="s">&quot;pronunciations&quot;</span><span class="p">)</span>
+     <span class="p">(</span><span class="o">#</span><span class="nv">:define</span> <span class="o">.</span> <span class="s">&quot;definitions&quot;</span><span class="p">))</span>
+     <span class="p">(</span><span class="o">#</span><span class="nv">:newaction</span> <span class="o">.</span> <span class="s">&quot;newaction&quot;</span> <span class="p">))</span> <span class="c1">; &lt;== Your new action here</span></code></pre></div>
 
 <ul>
   <li>Define a high level function that calls the existing backend service
@@ -200,7 +200,7 @@ and pass the newly defined action to it: </li>
 </ul>
 
 <div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nf">similar</span> <span class="nv">word</span><span class="p">)</span>
-    <span class="p">(</span><span class="nf">parse-bighuge</span> <span class="nv">word</span> <span class="o">#</span><span class="nv">:similar</span><span class="p">))</span></code></pre></div>
+    <span class="p">(</span><span class="nf">parse-bighuge</span> <span class="nv">word</span> <span class="o">#</span><span class="nv">:newaction</span><span class="p">))</span></code></pre></div>
 
 <h3 id="the-c-client-program">The C client program</h3>
 

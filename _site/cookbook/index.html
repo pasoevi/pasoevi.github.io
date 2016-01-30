@@ -114,38 +114,37 @@
 
 <h4 id="simply-importing-modules">Simply Importing modules</h4>
 
-<pre><code>(use-modules (srfi srfi-19))
-</code></pre>
+<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">use-modules</span> <span class="p">(</span><span class="nf">srfi</span> <span class="nv">srfi-19</span><span class="p">))</span></code></pre></div>
 
 <h3 id="strings">Strings</h3>
 
 <h4 id="reverse-string">Reverse String</h4>
-<pre><code>(string-reverse str [start [end]])
-</code></pre>
+
+<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">string-reverse</span> <span class="nv">str</span> <span class="p">[</span><span class="nv">start</span> <span class="p">[</span><span class="nv">end</span><span class="p">]])</span></code></pre></div>
 
 <h4 id="reverse-string-in-place">Reverse String in Place</h4>
-<pre><code>(string-reverse! str [start [end]])
-</code></pre>
+
+<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">string-reverse!</span> <span class="nv">str</span> <span class="p">[</span><span class="nv">start</span> <span class="p">[</span><span class="nv">end</span><span class="p">]])</span></code></pre></div>
 
 <h3 id="time-and-date">Time and Date</h3>
 
 <h3 id="io">IO</h3>
-<pre><code>(open-file filename
-    (if binary "wb" "w")
-        #:encoding encoding)
-</code></pre>
+
+<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">open-file</span> <span class="nv">filename</span>
+        <span class="p">(</span><span class="k">if </span><span class="nv">binary</span> <span class="s">&quot;wb&quot;</span> <span class="s">&quot;w&quot;</span><span class="p">)</span>
+            <span class="o">#</span><span class="nv">:encoding</span> <span class="nv">encoding</span><span class="p">)</span></code></pre></div>
 
 <h3 id="network">Network</h3>
 
 <h4 id="http-requests">Http requests</h4>
-<pre><code>(use-modules (web client))
-(http-get url #:streaming? #t)
-</code></pre>
+
+<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">use-modules</span> <span class="p">(</span><span class="nf">web</span> <span class="nv">client</span><span class="p">))</span>
+<span class="p">(</span><span class="nf">http-get</span> <span class="nv">url</span> <span class="o">#</span><span class="nv">:streaming?</span> <span class="no">#t</span><span class="p">)</span></code></pre></div>
 
 <h4 id="displaying-text">Displaying text</h4>
-<pre><code>(display "Guile Cookbook")
-(newline)
-</code></pre>
+
+<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nb">display </span><span class="s">&quot;Guile Cookbook&quot;</span><span class="p">)</span>
+<span class="p">(</span><span class="nf">newline</span><span class="p">)</span></code></pre></div>
 
 <h2 id="the-c-side">The C Side</h2>
 
@@ -168,7 +167,7 @@
 
 <span class="cm">/* ret_val now holds the return value from the function */</span></code></pre></div>
 
-<p><a href="https://github.com/pasoev"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" /></a></p>
+<p><a href="https://github.com/pasoev/guile-cookbook"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" /></a></p>
 
     </article>
 
