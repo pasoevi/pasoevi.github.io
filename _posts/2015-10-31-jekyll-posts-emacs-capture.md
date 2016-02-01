@@ -12,6 +12,8 @@ choose to write posts in Emacs, here are a few functions to automate
 file creation, finding and resuming the drafts and marking them as
 published.
 
+<!--more-->
+
 If in some blogging systems writing a new post means that you have to
 navigate to the web site, get authenticated, visit the page from which
 to create a new post and use the web-based editor, with some

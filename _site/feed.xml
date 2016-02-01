@@ -5,8 +5,8 @@
     <description>A blog to accompany the Github repositories from the same user.</description>
     <link>http://pasoev.github.io/</link>
     <atom:link href="http://pasoev.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 31 Jan 2016 17:58:09 +0400</pubDate>
-    <lastBuildDate>Sun, 31 Jan 2016 17:58:09 +0400</lastBuildDate>
+    <pubDate>Mon, 01 Feb 2016 11:20:58 +0400</pubDate>
+    <lastBuildDate>Mon, 01 Feb 2016 11:20:58 +0400</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -16,6 +16,8 @@ dictate how you write posts and what tools you use. For those who
 choose to write posts in Emacs, here are a few functions to automate
 file creation, finding and resuming the drafts and marking them as
 published.&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;p&gt;If in some blogging systems writing a new post means that you have to
 navigate to the web site, get authenticated, visit the page from which

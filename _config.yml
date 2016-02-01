@@ -9,6 +9,7 @@ highlighters: pygments
 # Build settings
 markdown: kramdown
 permalink: pretty
+excerpt_separator: <!--more-->
 collections:
   projects:
     output: true
