@@ -92,11 +92,23 @@
           <li><a href="#reverse-string-in-place">Reverse String in Place</a></li>
         </ul>
       </li>
+      <li><a href="#regular-expressions">Regular expressions</a>        <ul>
+          <li><a href="#loading-module">Loading module</a></li>
+          <li><a href="#basic-match">Basic match</a></li>
+        </ul>
+      </li>
       <li><a href="#time-and-date">Time and Date</a></li>
-      <li><a href="#io">IO</a></li>
+      <li><a href="#io">IO</a>        <ul>
+          <li><a href="#file-tree-walk">File tree walk</a></li>
+        </ul>
+      </li>
       <li><a href="#network">Network</a>        <ul>
           <li><a href="#http-requests">Http requests</a></li>
           <li><a href="#displaying-text">Displaying text</a></li>
+        </ul>
+      </li>
+      <li><a href="#libraries">Libraries</a>        <ul>
+          <li><a href="#using-slib">Using SLIB</a></li>
         </ul>
       </li>
     </ul>
@@ -126,9 +138,23 @@
 
 <div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">string-reverse!</span> <span class="nv">str</span> <span class="p">[</span><span class="nv">start</span> <span class="p">[</span><span class="nv">end</span><span class="p">]])</span></code></pre></div>
 
+<h3 id="regular-expressions">Regular expressions</h3>
+
+<h4 id="loading-module">Loading module</h4>
+
+<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">use-modules</span> <span class="p">(</span><span class="nf">ice-9</span> <span class="nv">regex</span><span class="p">))</span></code></pre></div>
+
+<h4 id="basic-match">Basic match</h4>
+
+<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">string-match</span> <span class="s">&quot;[A-Za-z]&quot;</span> <span class="s">&quot;foo&quot;</span><span class="p">)</span> <span class="c1">; matches all alphabetic letters</span></code></pre></div>
+
 <h3 id="time-and-date">Time and Date</h3>
 
 <h3 id="io">IO</h3>
+
+<h4 id="file-tree-walk">File tree walk</h4>
+
+<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">use-modules</span> <span class="p">(</span><span class="nf">ice-9</span> <span class="nv">ftw</span><span class="p">))</span></code></pre></div>
 
 <div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">open-file</span> <span class="nv">filename</span>
         <span class="p">(</span><span class="k">if </span><span class="nv">binary</span> <span class="s">&quot;wb&quot;</span> <span class="s">&quot;w&quot;</span><span class="p">)</span>
@@ -145,6 +171,12 @@
 
 <div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nb">display </span><span class="s">&quot;Guile Cookbook&quot;</span><span class="p">)</span>
 <span class="p">(</span><span class="nf">newline</span><span class="p">)</span></code></pre></div>
+
+<h3 id="libraries">Libraries</h3>
+
+<h4 id="using-slib">Using SLIB</h4>
+
+<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">use-modules</span> <span class="p">(</span><span class="nf">ice-9</span> <span class="nv">slib</span><span class="p">))</span></code></pre></div>
 
 <h2 id="the-c-side">The C Side</h2>
 

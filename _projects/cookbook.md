@@ -32,9 +32,33 @@ published: false
 (string-reverse! str [start [end]])
 {% endhighlight %}
 
+### Regular expressions
+
+#### Loading module
+
+{% highlight scheme %}
+(use-modules (ice-9 regex))
+{% endhighlight %}
+
+#### Basic match
+
+{% highlight scheme %}
+(string-match "[A-Za-z]" "foo") ; matches all alphabetic letters
+{% endhighlight %}
+
 ### Time and Date
 
 ### IO
+
+#### File tree walk
+
+{% highlight scheme %}
+
+(use-modules (ice-9 ftw))
+
+
+
+{% endhighlight %} 
 
 {% highlight scheme %}
     (open-file filename
@@ -54,6 +78,15 @@ published: false
 {% highlight scheme %}
 (display "Guile Cookbook")
 (newline)
+{% endhighlight %}
+
+### Libraries
+
+#### Using SLIB
+{% highlight scheme %}
+
+(use-modules (ice-9 slib))
+
 {% endhighlight %}
 
 ## The C Side
