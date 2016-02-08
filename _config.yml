@@ -5,7 +5,7 @@ description: "A blog to accompany the Github repositories from the same user."
 baseurl: ""
 url: "http://pasoev.github.io"
 github_username:  pasoev
-highlighters: pygments
+highlighters: rouge
 # Build settings
 markdown: kramdown
 permalink: pretty
