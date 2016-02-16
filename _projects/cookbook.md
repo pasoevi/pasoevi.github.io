@@ -2,7 +2,7 @@
 layout: page_ads
 title: Guile Cookbook
 permalink: /cookbook/
-published: false
+published: true
 ---
 
 * TOC
