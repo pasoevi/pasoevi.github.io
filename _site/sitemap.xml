@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    
+    <url>
+      <loc>http://pasoev.github.io/programming/2015/10/31/jekyll-posts-emacs-capture/</loc>
+      
+        <lastmod>2015-10-31T00:00:00+04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+
+  
+    
+    
+
+    
+  
+    
+    
+
+    
+  
+    
+    
+
+    
+    <url>
+      <loc>http://pasoev.github.io</loc>
+      
+        <lastmod>2016-02-16T20:51:03+04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    
+
+    
+  
+    
+    
+
+    
+  
+    
+    
+
+    
+  
+
+  
+    
+      
+        <url>
+          <loc>http://pasoev.github.io/cookbook/</loc>
+          
+            <lastmod>2016-02-16T20:51:03+04:00</lastmod>
+          
+          
+            <changefreq>monthly</changefreq>
+          
+          
+            <priority>0.3</priority>
+          
+        </url>
+      
+        <url>
+          <loc>http://pasoev.github.io/words/</loc>
+          
+            <lastmod>2016-02-16T20:51:03+04:00</lastmod>
+          
+          
+            <changefreq>monthly</changefreq>
+          
+          
+            <priority>0.3</priority>
+          
+        </url>
+      
+    
+  
+</urlset>
