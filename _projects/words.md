@@ -1,5 +1,5 @@
 ---
-layout: page_ads
+layout: page
 title: guile-words - Vocabulary for Scheme and C programs
 description: guile-words, vocabulary for Scheme
 permalink: /words/

@@ -1,5 +1,5 @@
 ---
-layout: page_ads
+layout: page
 title: Guile Cookbook
 permalink: /cookbook/
 published: true

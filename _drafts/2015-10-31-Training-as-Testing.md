@@ -20,4 +20,6 @@ A modern equivalent of this is some introductory university courses
 that are given to programming students that are not only inappropriate
 for beginners, but also present challenges that aren't primarily
 useful for learning. One can find many university programs that start
-choose to teach C or C++ as the first programming languages.
+choose to teach C or C++ as the first programming languages. Does this
+choice help the learning process for the students? Or maybe it just
+filters some of the students out. 
