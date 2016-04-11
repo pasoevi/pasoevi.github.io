@@ -1,21 +1,23 @@
 ---
 layout: page
-title: Innere Finsternis
+title: Innere Finsternis - Manual
 description: A Roguelike Game
 ads: false
 permalink: /innfin/
 published: false
 ---
 
+NOTE: This is a detailed game manual. For _Downloads_, visit the game
+website. 
+
 *Innfin - Innere Finsternis* is a horror-themed fantasy role-playing
 game set in the underworld of dungeons carved into stone and earth. It
-is a roguelike game in the tradition of the classics of the genre,
-like ADOM, Nethack, Angband and others. As you play the game, you
-discover various creatures in the halls and dungeons hidden from the
-world above. Your goal is to choose the deity to worship and attempt
-to do his or her bidding. You can abandon your god and convert to
-other religion later in the game and have the objective of the game
-changed, as well.
+is a roguelike game in the tradition of classics of the genre like
+ADOM, Nethack, Angband and others. As you play the game, you discover
+various creatures in the halls and dungeons hidden from the world
+above. Your goal is to choose a deity to worship and attempt to do his
+or her bidding. You can abandon your god and convert to other religion
+later in the game and have the objective of the game changed, as well.
 
 {:toc}
 
@@ -26,7 +28,27 @@ reigned. Not even rudimentary civilization was yet conceived by most
 races. Writing wasn't invented and songs were known but to the
 cleverest of race.
 
-## Portals and Dungeons of Fate
+In the age of Third Sailing, the brinks of the world saw tempests and
+havoc that, devastating the surface, uncovered the depths that nobody
+saw before. Common folk called it Inner Darkness, the realm from which
+nothingness radiated. It was dreaded by all but some of the bravest
+races. They believed that the Lower Dominion resembled the World Above
+in many ways and was a foreboding to what was to become of the
+world. Thus they called it Shadow of Tomorrow.
+
+Little was know of the structure of the dark realm but some speculated
+that it consisted of 16 layered dungeons.
+
+## Main Dungeon
+
+You start your adventure on the highest, level 1 of the dungeon. On
+each floor you find several staircases leading to higher or lower
+levels of the game. The exiting staircases on the highest (Level 1,
+staircase leading upward) and lowest levels (Level 16, staircase
+leading downward) serve as *Portals of Random Blackness* and *Portals
+of Deathly Chasms* respectively.
+
+## Portals and Special Dungeons
 
 The world consists of dungeons of various levels and portals that are
 accessible from them. There are many rules by which portals appear and
@@ -39,9 +61,21 @@ have more important role in character development and game
 progression; such portals are very few and easy to identify. You
 should know when to enter them and in what order.
 
-Dungeons of Fate are dungeons that do not follow the pattern of
-increasing difficulty typical for main dungeons. You know that you are
-in a Dungeon of Fate when you have made some god angry or extremely
+### Chamber of Sorrow ###
+
+One special dungeon is accessible from one of the main dungeons
+between the levels 3 - 5. It is the first thematic dungeon that you
+will encounter. It is devoid of pickable items and monsters in it die
+most unnatural deaths, as they do not leave you edible corpses. The
+place, though, is guaranteed to train your magic and fighting skills,
+as it will be much more challenging than anything you saw that early
+in the game.
+
+### Dungeons of Fate ###
+
+Some dungeons that do not follow the pattern of increasing difficulty
+typical for main 16-level dungeon stack. You know that you are in a
+Dungeon of Fate when you have made some god angry or extremely
 pleased. This also happens when you have done something of importance
 on the large scale.
 
@@ -51,25 +85,41 @@ portals permanently leave you away from the main dungeon which makes
 it impossible to complete the quests given by some gods, thus you
 lose.
 
-# Character race
+## Branches ##
+
+When you have been in the game for long enough, you will have probably
+cleared around ten levels of the main dungeon and most of special
+areas. It is then time to start exploring the branches. It is the time
+when you have learned enough about the world to start following
+religion and choose what you want to do in it.
+
+### Mythic Menagerie ###
+
+### Dwarf Caverns ###
+
+### Barbarian Temples ###
+
+### God-King Palace ###
+
+# Character races
 
 ## Dark Elf
 
 Dark elves are the most mysterious of the lot. Seeing their innate
 stats, it is difficult to foresee where they would thrive and where
 they would perish. They can be outstanding ranged combatants with
-their mastery of archery and singing spells. They are, however, hated
-by many creatures and feared by yet more. 
+their mastery of archery and spells singing. They are, however, hated
+by many creatures and feared by yet more.
 
 ## Dwarf
 
 Dwarves are the most typical melee fighters with high health points,
 good defence and high damage. This doesn't mean that they have much
-lower strength in other stats, but this advantage in melee fighting
-drives them (or the player manipulating them&#x2026;) into further
-developing this skill and therefore neglecting some other skills. This
-makes them stand out in early to mid game but facing significant
-unforeseen challenges in late game if overly specialized.
+lower ability in other stats, but this advantage in melee fighting
+drives them (or the player manipulating them) into further developing
+this skill and therefore neglecting some other skills. This makes them
+stand out in early to mid game but facing significant unforeseen
+challenges in late game if overly specialized.
 
 ## Human
 
@@ -88,7 +138,7 @@ strategy.
 Huttlers are distant relatives of humans, possessing similar
 intelligence, person and susceptibility toward mutation and corruption
 (and other conditions of living) but have vastly different workings in
-learning and interactions with non-player characters. The difference
+learning and interaction with non-player characters. The difference
 between them and humans becomes more evident as the game progresses.
 
 Some say that Huttlers parallel hurthlings or hobbits in other
@@ -99,7 +149,26 @@ they oblivious to the tidings from the larger world.
 
 # Skills
 
+If some areas of this game have relatively more limited choices, like
+weapons, shields, clothing, the skill set and religion systems is
+where abundance can be enjoyed.
+
 # Combat
+
+*NOTE:*_This is a general overview of the combat system. For
+information on skills in various aspects of fighting and weapon usage,
+see the skills section_
+
+Winning the game isn't primarily about killing monsters and becoming
+as strong as possible. Nevertheless, the dungeons present the player
+with various kinds of danger. It is crucial to be able to defend
+yourself as you do not always have a chance to escape. There is also
+much that can be gained by visiting some places that are particularly
+well-defended and only the strong fighters can venture to.
+
+This section covers more basic forms of combat, i.e. barehanded or
+weapon-based fighting. For magic spell casting and divine help, see
+the _Religion_ section.
 
 ## Weapons
 
@@ -107,9 +176,60 @@ they oblivious to the tidings from the larger world.
 
 # Religion
 
+Religion is important in the game not only in providing more advanced
+mechanics and diversity, but also as the most crucial area of the game
+as the goal is directly determined by what god you worship. More
+advanced spells also are learned by practicing religion. This becomes
+even more important as the world is in its early days and magic-less
+races haven't yet learned enough technology, and but the crudest and
+simplest weapons are easily available.
+
 ## Gods
 
+### Aronkhar
+
+Aronkhar is the god of tribal warfare and barbarism. Until the most
+recent ages, his grip on the world was undisputed. It favors bravery
+and honor, and his reign over the world is remembered as The Golden
+Age of Heroes where the honourable thrived.
+
+The untainted domain of Aronkhar has known little of darkness and
+corruption that is brewing in the farthest rims of the world and fast
+approaching with advancing civilization. His calls for his faithful
+warriors is at its strongest, defending the integrity of the blissful
+world.
+
+### Marmrhak
+
+### Sazanas
+
+Even in its merriest days, the world remembered of the shadows told by
+Lost Generations, when Sazanas first tried to bring domestication,
+servitude and contempt.
+
+Sazanas is said to be generous in granting brilliance and knowledge of
+different machinery to his followers. His first coming showed the
+world primitive form of town settlements that were centered around
+High Temples. Such areas indulged inhabitants with powers unheard of
+in the older, Aronkhar domain.
+
+### Thiorharl
+
 ## Magic
+
+Most of the magic spells are learned by divine help (Divine Magic),
+save for some more basic forms of magic which require nothing but a
+wand (Arcane Magic). A wand, indeed, is the basis of all spell
+casting, be it divine calling or arcane magic.. There aren't wands of
+many different kind, they uniformly differ by size - which determines
+spells of what order they can cast. Casting difficult spells with
+mediocre wands can either succeed, break the wand or even miscast,
+which can be dangerous with certain spells.
+
+You don't do magic by reading scrolls. You *remember* spells and there
+is a limit to how many of them you can remember. Certain conditions
+affect your memory. Every time you grow agony, you forget a random
+spell (some spells are exception to this).
 
 # Monsters
 
@@ -119,19 +239,26 @@ characters see you as. There are, however, some monsters that are
 inherently aggressive toward your race or to anything at all. Such
 monsters are often *cursed*. 
 
-## Specials
-
 ## Wizards
 
 Wizards possess similar abilities as the player in that that they can
 use magic, weapons and have advanced tactics in wars. They are often
 in the most important parts of the world.
 
-## Elves
+## Specials
+
+Specials are non-natives of the dungeons. They have *entered* the
+dungeons just like you have. Like wizards, they are users of
+magic. Specials have more personality to them, like names, stories or
+quests. They are often of very intelligent races.
 
 ## Orcs
 
+## Goblins
+
 ## Trolls
+
+## Dragons
 
 ## Animals
 
@@ -146,11 +273,22 @@ temper.
 Cursed animals serve some fell purpose in the game. Typically they are
 cursed to serve some other monsters or gods. To a player, this means
 that such an animal can pose significantly more threat than
-others. Not all animals can be identified as cursed easily.
+others. Not all animals can easily be identified as cursed.
 
 # Conditions affecting living
 
 ## Food
+
+In the underworld hunger, lack of light and sanity is another instance
+of immediate danger you have to cope with. You can escape or avoid
+most monsters, but you can't escape hunger. Though scarce and
+deficient, the dungeons offer you some stores of it if you look in
+right places. You will often be facing hunger and the stores you can
+carry with yourself are limited, so you can only survive if you learn
+that the world you are in is vastly different from the one you come
+from, you will eventually learn that the luck lies in how fast you
+learn what you can eat and how often you should do it.
+
 
 ## Health
 
@@ -160,6 +298,10 @@ If fell monsters of the dungeons want to take your flesh, the dungeon
 itself wants to take your soul. Your sanity is as vulnerable to
 darkness and terror of the underworld as your skin is to the claws of
 fiercest animals.
+
+Some aspects of your character are monitored, like remaining health
+points, items it is wearing or whether it is hungry. Level of
+corruption, though, affects your play in ways you cannot easily check.
 
 ## Confusion
 
@@ -197,6 +339,11 @@ happens in a critical situation.
 ## Mutation
 
 # Pickable Items
+
+The game offers several kinds of items that can be found in different
+parts of the dungeon and other areas. The most basic items are food,
+weapons, clothes, shields/armor, jewelry, wands and some thematic
+artifacts. 
 
 # Developer's Guide
 
