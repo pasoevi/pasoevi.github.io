@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why There has to be God in Stoicism
+title: World Against Socrates
 category: "Simpler"
 ---
 
@@ -13,4 +13,6 @@ been the effects of irony, negativity and all the legacy of Socrates?
 The world has only seen new beliefs, the quantity of information in
 the world has increased overwhelmingly. A man today faces an endless
 ocean of information, knowledge, possibilities. If there is a struggle
-to find a meaning, there is also a counter struggle to 
+to find a meaning in the world, to believe in anything it presents to
+us, there is also a counter struggle to finding your way in this
+immense sea of information, beliefs, ways of life.
