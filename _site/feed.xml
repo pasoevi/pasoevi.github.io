@@ -5,175 +5,9 @@
     <description>A blog to accompany the Github repositories from the same user.</description>
     <link>http://pasoev.github.io/</link>
     <atom:link href="http://pasoev.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 28 Apr 2016 23:17:34 +0400</pubDate>
-    <lastBuildDate>Thu, 28 Apr 2016 23:17:34 +0400</lastBuildDate>
-    <generator>Jekyll v2.2.0</generator>
-    
-      <item>
-        <title>About Minimalism and Simpler Life</title>
-        <description>&lt;p&gt;The world today is full of good ideas. Many of them are too good to be
-brought to life. They are otherwise thoroughly kind. Such ideas are
-most often criticised for how difficult it would be to implement them
-in the world exactly because the world has the problems that this idea
-wants to solve. A very good example of such paradox is the desire that
-is born in more and more people to revolt against the modern world and
-to return to simpler, more minimalist life. &lt;/p&gt;
-</description>
-        <pubDate>Thu, 28 Apr 2016 23:17:34 +0400</pubDate>
-        <link>http://pasoev.github.io/simpler/2016/04/28/2015-11-15-minimalism-simpler-life/</link>
-        <guid isPermaLink="true">http://pasoev.github.io/simpler/2016/04/28/2015-11-15-minimalism-simpler-life/</guid>
-        
-        
-        <category>simpler</category>
-        
-      </item>
-    
-      <item>
-        <title>World Against Socrates</title>
-        <description>&lt;p&gt;The Concept of Irony has been the turning point in philosophy. It not
-only brought new views to the world, philosophy and more, but also
-changed the way people see the world and thought itself.&lt;/p&gt;
-
-&lt;p&gt;There is also one interesting thing to observe about irony. What has
-been the effects of irony, negativity and all the legacy of Socrates?
-The world has only seen new beliefs, the quantity of information in
-the world has increased overwhelmingly. A man today faces an endless
-ocean of information, knowledge, possibilities. If there is a struggle
-to find a meaning in the world, to believe in anything it presents to
-us, there is also a counter struggle to finding your way in this
-immense sea of information, beliefs, ways of life.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 28 Apr 2016 23:08:39 +0400</pubDate>
-        <link>http://pasoev.github.io/simpler/2016/04/28/stoicism-and-god/</link>
-        <guid isPermaLink="true">http://pasoev.github.io/simpler/2016/04/28/stoicism-and-god/</guid>
-        
-        
-        <category>simpler</category>
-        
-      </item>
-    
-      <item>
-        <title>Training as Testing</title>
-        <description>&lt;p&gt;There is some worship of training, of improvement and living in strict
-discipline. Many systems of training from present and past are
-legendary for their rigorousness. One such example is Spartan
-&lt;em&gt;Agoge&lt;/em&gt;. It is rare that somebody argues about effectiveness of such
-regimes. However, it is rarely pointed out that not all of the
-exertions in such systems are directed toward improvement. A lot of it
-is just about filtering people out. Giving challenges to the group
-that only the strongest, most fit can complete successfully -
-sometimes these challenges are long enough to appear like they are
-some form of training, but in the end, they might be more aimed at
-testing their ability to maintain themselves on long-term goals.&lt;/p&gt;
-
-&lt;p&gt;A modern equivalent of this is some introductory university courses
-that are given to programming students that are not only inappropriate
-for beginners, but also present challenges that aren’t primarily
-useful for learning. One can find many university programs that choose
-to teach C or C++ as the first programming languages. Does this choice
-help the learning process for the students? Or maybe it just filters
-some of the students out.&lt;/p&gt;
-
-&lt;p&gt;To expand more on this, compare, which would be a more useful tool for
-learning to program, C++ which has several dozens of features directed
-to large teams of professionals but do little but confuse a novice
-programmer, or Scheme or Python that have much less overhead in terms
-of syntax and one can start composing small programs right away?&lt;/p&gt;
-</description>
-        <pubDate>Fri, 18 Mar 2016 11:45:31 +0400</pubDate>
-        <link>http://pasoev.github.io/simpler/2016/03/18/2015-10-31-Training-as-Testing/</link>
-        <guid isPermaLink="true">http://pasoev.github.io/simpler/2016/03/18/2015-10-31-Training-as-Testing/</guid>
-        
-        
-        <category>simpler</category>
-        
-      </item>
-    
-      <item>
-        <title>Civilisation vs Domestication</title>
-        <description>&lt;p&gt;Wise Man’s Fear. It is a fantasy novel in the series Kingkiller
-Chronicles by Patrick Rothfuss. I rarely read fantasy novels with my
-mind looking for allegories in the background, but some works in this
-genre do really display significant instances of allegory with or
-without intention.&lt;/p&gt;
-
-&lt;p&gt;The analogy that came to my mind whilst reading that book is from the
-people of Tempi, in the descriptions of the way of Lethani. When they
-call themselves civilised and others - barbarians. However, what do
-they mean by civilisation? Do they mean the high speed trains and
-rotating doors? No they didn’t. They meant advancement in the other
-area of human activity. The advancement in morality, about honour.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 20 Jan 2016 16:02:46 +0400</pubDate>
-        <link>http://pasoev.github.io/simpler/2016/01/20/2015-11-15-civilisation-vs-domestication/</link>
-        <guid isPermaLink="true">http://pasoev.github.io/simpler/2016/01/20/2015-11-15-civilisation-vs-domestication/</guid>
-        
-        <category>Fantasy</category>
-        
-        
-        <category>simpler</category>
-        
-      </item>
-    
-      <item>
-        <title>SDL and OpenGL Demos</title>
-        <description>
-</description>
-        <pubDate>Sat, 16 Jan 2016 22:19:00 +0400</pubDate>
-        <link>http://pasoev.github.io/programming/2016/01/16/sdl-opengl/</link>
-        <guid isPermaLink="true">http://pasoev.github.io/programming/2016/01/16/sdl-opengl/</guid>
-        
-        <category>gamedev</category>
-        
-        <category>programming</category>
-        
-        <category>SDL</category>
-        
-        <category>OpenGL</category>
-        
-        
-        <category>programming</category>
-        
-      </item>
-    
-      <item>
-        <title>About Progress</title>
-        <description>
-</description>
-        <pubDate>Sat, 16 Jan 2016 22:18:52 +0400</pubDate>
-        <link>http://pasoev.github.io/simpler/2016/01/16/about-progress/</link>
-        <guid isPermaLink="true">http://pasoev.github.io/simpler/2016/01/16/about-progress/</guid>
-        
-        
-        <category>simpler</category>
-        
-      </item>
-    
-      <item>
-        <title>Another Way to Plan Your Work with Emacs</title>
-        <description>
-</description>
-        <pubDate>Wed, 11 Nov 2015 00:01:36 +0400</pubDate>
-        <link>http://pasoev.github.io/simpler/2015/11/11/another-day-planner/</link>
-        <guid isPermaLink="true">http://pasoev.github.io/simpler/2015/11/11/another-day-planner/</guid>
-        
-        
-        <category>simpler</category>
-        
-      </item>
-    
-      <item>
-        <title>On Measuring Human Development</title>
-        <description>
-</description>
-        <pubDate>Tue, 10 Nov 2015 20:35:29 +0400</pubDate>
-        <link>http://pasoev.github.io/simpler/2015/11/10/2015-11-10-on-measuring-human-development/</link>
-        <guid isPermaLink="true">http://pasoev.github.io/simpler/2015/11/10/2015-11-10-on-measuring-human-development/</guid>
-        
-        
-        <category>simpler</category>
-        
-      </item>
+    <pubDate>Wed, 22 Jun 2016 18:18:51 +0400</pubDate>
+    <lastBuildDate>Wed, 22 Jun 2016 18:18:51 +0400</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Emacs Shortcuts for Writing Posts Using Jekyll</title>
@@ -194,24 +28,24 @@ keystrokes without ever leaving Emacs.&lt;/p&gt;
 &lt;h2 id=&quot;using-org-capture&quot;&gt;Using Org Capture&lt;/h2&gt;
 
 &lt;p&gt;One approach is to add a capture template which is usually bound to
-&lt;code&gt;Control-C c&lt;/code&gt;.&lt;/p&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Control-C c&lt;/code&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;today-is&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;&amp;quot;Return current year-month-day.&amp;quot;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;format-time-string&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;%Y-%m-%d&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;today-is&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&quot;Return current year-month-day.&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;format-time-string&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;%Y-%m-%d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 
 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;jekyll-new&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;title&lt;/span&gt;
-	 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;string=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;thing-at-point&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&amp;#39;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-	     &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;thing-at-point&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&amp;#39;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;car&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;kill-ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;concat&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file-name-as-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;~/blog/_posts&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;today-is&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;-&amp;quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;.md&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+	 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;string=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;thing-at-point&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&#39;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+	     &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;thing-at-point&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&#39;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;car&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;kill-ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;concat&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file-name-as-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;~/blog/_posts&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;today-is&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;-&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;.md&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
 
 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-capture-templates&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;p&amp;quot;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Post&amp;quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;plain&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file&lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;jekyll-new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-	 &lt;span class=&quot;s&quot;&gt;&amp;quot;---\nlayout: post\ntitle: %? \n---\n&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+	&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;p&quot;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Post&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;plain&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file&lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;jekyll-new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+	 &lt;span class=&quot;s&quot;&gt;&quot;---\nlayout: post\ntitle: %? \n---\n&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;The above function automatically creates the file in the &lt;code&gt;_posts&lt;/code&gt;
+&lt;p&gt;The above function automatically creates the file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt;
 directory with the file name containing today’s date and the short
 title of the post which is assumed to be at the top of the kill-ring.&lt;/p&gt;
 
@@ -221,34 +55,34 @@ title of the post which is assumed to be at the top of the kill-ring.&lt;/p&gt;
 function that displays a list of posts in the drafts directory and
 provides an easy way to choose a post to resume.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;jekyll-drafts&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;default-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;~/blog/_drafts&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file-expand-wildcards&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;*.md&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;jekyll-drafts&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;default-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;~/blog/_drafts&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file-expand-wildcards&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;*.md&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
 
 
 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;jekyll-resume&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;&amp;quot;Resume writing one of the posts from the Jekyll drafts directory&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&quot;Resume writing one of the posts from the Jekyll drafts directory&quot;&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;interactive&lt;/span&gt;
-   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;completing-read&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Post to resume: &amp;quot;&lt;/span&gt;
-                          &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;jekyll-drafts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;find-file&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;concat&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file-name-as-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;~/blog/_drafts&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;completing-read&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Post to resume: &quot;&lt;/span&gt;
+                          &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;jekyll-drafts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;find-file&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;concat&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file-name-as-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;~/blog/_drafts&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;marking-post-drafts-as-published&quot;&gt;Marking Post Drafts as Published&lt;/h2&gt;
 
 &lt;p&gt;Another convenience function can be defined to move finished drafts to
-the &lt;code&gt;_posts&lt;/code&gt; directory.&lt;/p&gt;
+the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;jekyll-mark-published&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;&amp;quot;Mark one of the posts from the Jekyll drafts directory as published.&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;   This actually means moving the post from the _drafts to the _posts &lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;   directory.&amp;quot;&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;jekyll-mark-published&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&quot;Mark one of the posts from the Jekyll drafts directory as published.
+   This actually means moving the post from the _drafts to the _posts 
+   directory.&quot;&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;interactive&lt;/span&gt;
-   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;completing-read&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Post to mark as published: &amp;quot;&lt;/span&gt;
-                          &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;jekyll-drafts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;copy-file&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;concat&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file-name-as-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;~/blog/_drafts&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-             &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;concat&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file-name-as-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;~/blog/_posts&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;completing-read&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Post to mark as published: &quot;&lt;/span&gt;
+                          &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;jekyll-drafts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;copy-file&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;concat&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file-name-as-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;~/blog/_drafts&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+             &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;concat&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file-name-as-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;~/blog/_posts&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;The above functions can be called from &lt;code&gt;Meta-X&lt;/code&gt; or a key binding
+&lt;p&gt;The above functions can be called from &lt;code class=&quot;highlighter-rouge&quot;&gt;Meta-X&lt;/code&gt; or a key binding
 could be added for it.&lt;/p&gt;
 </description>
         <pubDate>Sat, 31 Oct 2015 00:00:00 +0400</pubDate>
@@ -262,7 +96,7 @@ could be added for it.&lt;/p&gt;
         <category>Writing</category>
         
         
-        <category>programming</category>
+        <category>Programming</category>
         
       </item>
     

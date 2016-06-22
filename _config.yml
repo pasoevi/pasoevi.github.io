@@ -13,3 +13,6 @@ excerpt_separator: <!--more-->
 collections:
   projects:
     output: true
+
+exclude:
+  - node_modules
