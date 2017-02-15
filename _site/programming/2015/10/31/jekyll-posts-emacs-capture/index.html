@@ -105,24 +105,24 @@ keystrokes without ever leaving Emacs.</p>
 <h2 id="using-org-capture">Using Org Capture</h2>
 
 <p>One approach is to add a capture template which is usually bound to
-<code class="highlighter-rouge">Control-C c</code>.</p>
+<code>Control-C c</code>.</p>
 
-<figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">today-is</span> <span class="p">()</span>
-  <span class="s">"Return current year-month-day."</span>
-  <span class="p">(</span><span class="nv">format-time-string</span> <span class="s">"%Y-%m-%d"</span><span class="p">))</span>
+<div class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">today-is</span> <span class="p">()</span>
+  <span class="s">&quot;Return current year-month-day.&quot;</span>
+  <span class="p">(</span><span class="nv">format-time-string</span> <span class="s">&quot;%Y-%m-%d&quot;</span><span class="p">))</span>
 
 <span class="p">(</span><span class="nb">defun</span> <span class="nv">jekyll-new</span> <span class="p">()</span>
   <span class="p">(</span><span class="k">let</span> <span class="p">((</span><span class="nv">title</span>
-	 <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">string=</span> <span class="s">""</span> <span class="p">(</span><span class="nv">thing-at-point</span> <span class="ss">'word</span><span class="p">))</span>
-	     <span class="p">(</span><span class="nv">thing-at-point</span> <span class="ss">'word</span><span class="p">)</span> <span class="p">(</span><span class="nb">car</span> <span class="nv">kill-ring</span><span class="p">))))</span>
-    <span class="p">(</span><span class="nv">concat</span> <span class="p">(</span><span class="nv">file-name-as-directory</span> <span class="s">"~/blog/_posts"</span><span class="p">)</span>
-	<span class="p">(</span><span class="nv">today-is</span><span class="p">)</span> <span class="s">"-"</span> <span class="nv">title</span> <span class="s">".md"</span><span class="p">)))</span>
+	 <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">string=</span> <span class="s">&quot;&quot;</span> <span class="p">(</span><span class="nv">thing-at-point</span> <span class="ss">&#39;word</span><span class="p">))</span>
+	     <span class="p">(</span><span class="nv">thing-at-point</span> <span class="ss">&#39;word</span><span class="p">)</span> <span class="p">(</span><span class="nb">car</span> <span class="nv">kill-ring</span><span class="p">))))</span>
+    <span class="p">(</span><span class="nv">concat</span> <span class="p">(</span><span class="nv">file-name-as-directory</span> <span class="s">&quot;~/blog/_posts&quot;</span><span class="p">)</span>
+	<span class="p">(</span><span class="nv">today-is</span><span class="p">)</span> <span class="s">&quot;-&quot;</span> <span class="nv">title</span> <span class="s">&quot;.md&quot;</span><span class="p">)))</span>
 
 <span class="p">(</span><span class="k">setq</span> <span class="nv">org-capture-templates</span>
-	<span class="p">(</span><span class="s">"p"</span> <span class="s">"Post"</span> <span class="nv">plain</span> <span class="p">(</span><span class="nv">file</span>  <span class="p">(</span><span class="nv">jekyll-new</span><span class="p">))</span>
-	 <span class="s">"---\nlayout: post\ntitle: %? \n---\n"</span><span class="p">))</span></code></pre></figure>
+	<span class="p">(</span><span class="s">&quot;p&quot;</span> <span class="s">&quot;Post&quot;</span> <span class="nv">plain</span> <span class="p">(</span><span class="nv">file</span>  <span class="p">(</span><span class="nv">jekyll-new</span><span class="p">))</span>
+	 <span class="s">&quot;---\nlayout: post\ntitle: %? \n---\n&quot;</span><span class="p">))</span></code></pre></div>
 
-<p>The above function automatically creates the file in the <code class="highlighter-rouge">_posts</code>
+<p>The above function automatically creates the file in the <code>_posts</code>
 directory with the file name containing today’s date and the short
 title of the post which is assumed to be at the top of the kill-ring.</p>
 
@@ -132,34 +132,34 @@ title of the post which is assumed to be at the top of the kill-ring.</p>
 function that displays a list of posts in the drafts directory and
 provides an easy way to choose a post to resume.</p>
 
-<figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">jekyll-drafts</span> <span class="p">()</span>
-  <span class="p">(</span><span class="k">let</span> <span class="p">((</span><span class="nv">default-directory</span> <span class="s">"~/blog/_drafts"</span><span class="p">))</span>
-  <span class="p">(</span><span class="nv">file-expand-wildcards</span> <span class="s">"*.md"</span><span class="p">)))</span>
+<div class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">jekyll-drafts</span> <span class="p">()</span>
+  <span class="p">(</span><span class="k">let</span> <span class="p">((</span><span class="nv">default-directory</span> <span class="s">&quot;~/blog/_drafts&quot;</span><span class="p">))</span>
+  <span class="p">(</span><span class="nv">file-expand-wildcards</span> <span class="s">&quot;*.md&quot;</span><span class="p">)))</span>
 
 
 <span class="p">(</span><span class="nb">defun</span> <span class="nv">jekyll-resume</span> <span class="p">(</span><span class="nv">post</span><span class="p">)</span>
-  <span class="s">"Resume writing one of the posts from the Jekyll drafts directory"</span>
+  <span class="s">&quot;Resume writing one of the posts from the Jekyll drafts directory&quot;</span>
   <span class="p">(</span><span class="nv">interactive</span>
-   <span class="p">(</span><span class="nb">list</span> <span class="p">(</span><span class="nv">completing-read</span> <span class="s">"Post to resume: "</span>
-                          <span class="p">(</span><span class="nv">jekyll-drafts</span><span class="p">)</span> <span class="no">nil</span> <span class="no">t</span> <span class="s">""</span><span class="p">)))</span>
-    <span class="p">(</span><span class="nv">find-file</span> <span class="p">(</span><span class="nv">concat</span> <span class="p">(</span><span class="nv">file-name-as-directory</span> <span class="s">"~/blog/_drafts"</span><span class="p">)</span> <span class="nv">post</span><span class="p">)))</span></code></pre></figure>
+   <span class="p">(</span><span class="nb">list</span> <span class="p">(</span><span class="nv">completing-read</span> <span class="s">&quot;Post to resume: &quot;</span>
+                          <span class="p">(</span><span class="nv">jekyll-drafts</span><span class="p">)</span> <span class="no">nil</span> <span class="no">t</span> <span class="s">&quot;&quot;</span><span class="p">)))</span>
+    <span class="p">(</span><span class="nv">find-file</span> <span class="p">(</span><span class="nv">concat</span> <span class="p">(</span><span class="nv">file-name-as-directory</span> <span class="s">&quot;~/blog/_drafts&quot;</span><span class="p">)</span> <span class="nv">post</span><span class="p">)))</span></code></pre></div>
 
 <h2 id="marking-post-drafts-as-published">Marking Post Drafts as Published</h2>
 
 <p>Another convenience function can be defined to move finished drafts to
-the <code class="highlighter-rouge">_posts</code> directory.</p>
+the <code>_posts</code> directory.</p>
 
-<figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">jekyll-mark-published</span> <span class="p">(</span><span class="nv">post</span><span class="p">)</span>
-  <span class="s">"Mark one of the posts from the Jekyll drafts directory as published.
-   This actually means moving the post from the _drafts to the _posts 
-   directory."</span>
+<div class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">jekyll-mark-published</span> <span class="p">(</span><span class="nv">post</span><span class="p">)</span>
+  <span class="s">&quot;Mark one of the posts from the Jekyll drafts directory as published.</span>
+<span class="s">   This actually means moving the post from the _drafts to the _posts </span>
+<span class="s">   directory.&quot;</span>
   <span class="p">(</span><span class="nv">interactive</span>
-   <span class="p">(</span><span class="nb">list</span> <span class="p">(</span><span class="nv">completing-read</span> <span class="s">"Post to mark as published: "</span>
-                          <span class="p">(</span><span class="nv">jekyll-drafts</span><span class="p">)</span> <span class="no">nil</span> <span class="no">t</span> <span class="s">""</span><span class="p">)))</span>
-  <span class="p">(</span><span class="nv">copy-file</span> <span class="p">(</span><span class="nv">concat</span> <span class="p">(</span><span class="nv">file-name-as-directory</span> <span class="s">"~/blog/_drafts"</span><span class="p">)</span> <span class="nv">post</span><span class="p">)</span>
-             <span class="p">(</span><span class="nv">concat</span> <span class="p">(</span><span class="nv">file-name-as-directory</span> <span class="s">"~/blog/_posts"</span><span class="p">)</span> <span class="nv">post</span><span class="p">)))</span></code></pre></figure>
+   <span class="p">(</span><span class="nb">list</span> <span class="p">(</span><span class="nv">completing-read</span> <span class="s">&quot;Post to mark as published: &quot;</span>
+                          <span class="p">(</span><span class="nv">jekyll-drafts</span><span class="p">)</span> <span class="no">nil</span> <span class="no">t</span> <span class="s">&quot;&quot;</span><span class="p">)))</span>
+  <span class="p">(</span><span class="nv">copy-file</span> <span class="p">(</span><span class="nv">concat</span> <span class="p">(</span><span class="nv">file-name-as-directory</span> <span class="s">&quot;~/blog/_drafts&quot;</span><span class="p">)</span> <span class="nv">post</span><span class="p">)</span>
+             <span class="p">(</span><span class="nv">concat</span> <span class="p">(</span><span class="nv">file-name-as-directory</span> <span class="s">&quot;~/blog/_posts&quot;</span><span class="p">)</span> <span class="nv">post</span><span class="p">)))</span></code></pre></div>
 
-<p>The above functions can be called from <code class="highlighter-rouge">Meta-X</code> or a key binding
+<p>The above functions can be called from <code>Meta-X</code> or a key binding
 could be added for it.</p>
 
     </article>

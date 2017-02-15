@@ -102,24 +102,24 @@ in <em>C</em> (and <em>C++</em>) programs and libraries as well.</p>
 <h2 id="documentation"><em>Documentation</em></h2>
 
 <ul id="markdown-toc">
-  <li><a href="#documentation" id="markdown-toc-documentation"><em>Documentation</em></a></li>
-  <li><a href="#requirements" id="markdown-toc-requirements">Requirements</a></li>
-  <li><a href="#installation" id="markdown-toc-installation">Installation</a></li>
-  <li><a href="#usage-examples" id="markdown-toc-usage-examples">Usage examples</a>    <ul>
-      <li><a href="#the-scheme-library" id="markdown-toc-the-scheme-library">The Scheme library</a></li>
+  <li><a href="#documentation"><em>Documentation</em></a></li>
+  <li><a href="#requirements">Requirements</a></li>
+  <li><a href="#installation">Installation</a></li>
+  <li><a href="#usage-examples">Usage examples</a>    <ul>
+      <li><a href="#the-scheme-library">The Scheme library</a></li>
     </ul>
   </li>
-  <li><a href="#reference" id="markdown-toc-reference">Reference</a>    <ul>
-      <li><a href="#available-functions" id="markdown-toc-available-functions">Available functions</a></li>
-      <li><a href="#adding-new-actions" id="markdown-toc-adding-new-actions">Adding new actions</a>        <ul>
-          <li><a href="#adding-actions-to-already-supported-backends" id="markdown-toc-adding-actions-to-already-supported-backends">Adding actions to already supported backends</a></li>
+  <li><a href="#reference">Reference</a>    <ul>
+      <li><a href="#available-functions">Available functions</a></li>
+      <li><a href="#adding-new-actions">Adding new actions</a>        <ul>
+          <li><a href="#adding-actions-to-already-supported-backends">Adding actions to already supported backends</a></li>
         </ul>
       </li>
-      <li><a href="#the-c-client-program" id="markdown-toc-the-c-client-program">The C client program</a></li>
+      <li><a href="#the-c-client-program">The C client program</a></li>
     </ul>
   </li>
-  <li><a href="#contributing" id="markdown-toc-contributing">Contributing</a></li>
-  <li><a href="#copying" id="markdown-toc-copying">Copying</a></li>
+  <li><a href="#contributing">Contributing</a></li>
+  <li><a href="#copying">Copying</a></li>
 </ul>
 
 <h2 id="requirements">Requirements</h2>
@@ -131,31 +131,30 @@ in <em>C</em> (and <em>C++</em>) programs and libraries as well.</p>
 
 <p>Download the <a href="https://github.com/pasoev/guile-words/releases/download/0.01/guile-words-0.01.tar.gz">tar file</a> or clone a git reository</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">git clone https://github.com/pasoev/guile-words.git</code></pre></figure>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git clone https://github.com/pasoev/guile-words.git</code></pre></div>
 
 <p>put the <em>words.scm</em> (or the compiled <em>.go</em>) file in the Guile site
 package, typically</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>/usr/share/guile/site/
+<pre><code>/usr/share/guile/site/
 </code></pre>
-</div>
 
 <h2 id="usage-examples">Usage examples</h2>
 
 <h3 id="the-scheme-library">The Scheme library</h3>
 
-<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">use-modules</span> <span class="p">(</span><span class="nf">words</span><span class="p">))</span>
+<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">use-modules</span> <span class="p">(</span><span class="nf">words</span><span class="p">))</span>
 
-<span class="p">(</span><span class="nf">antonym</span> <span class="s">"good"</span><span class="p">)</span>
- <span class="nv">=&gt;</span> <span class="p">(</span><span class="nf">ant</span> <span class="nv">bad</span> <span class="nv">evil</span> <span class="nv">bad</span> <span class="nv">badness</span> <span class="nv">evil</span> <span class="nv">evilness</span> <span class="nv">ill</span><span class="p">)</span>
+<span class="p">(</span><span class="nf">antonym</span> <span class="s">&quot;good&quot;</span><span class="p">)</span>
+ <span class="k">=&gt; </span><span class="p">(</span><span class="nf">ant</span> <span class="nv">bad</span> <span class="nv">evil</span> <span class="nv">bad</span> <span class="nv">badness</span> <span class="nv">evil</span> <span class="nv">evilness</span> <span class="nv">ill</span><span class="p">)</span>
 
-<span class="p">(</span><span class="nf">synonym</span> <span class="s">"poor"</span><span class="p">)</span>
- <span class="nv">=&gt;</span> <span class="p">(</span><span class="nf">syn</span> <span class="nv">hapless</span> <span class="nv">miserable</span> <span class="nv">misfortunate</span> <span class="nv">pathetic</span>
+<span class="p">(</span><span class="nf">synonym</span> <span class="s">&quot;poor&quot;</span><span class="p">)</span>
+ <span class="k">=&gt; </span><span class="p">(</span><span class="nf">syn</span> <span class="nv">hapless</span> <span class="nv">miserable</span> <span class="nv">misfortunate</span> <span class="nv">pathetic</span>
  <span class="o">...</span> <span class="nv">piteous</span> <span class="nv">pitiable</span> <span class="nv">pitiful</span> <span class="nv">wretched</span> <span class="nv">inadequate</span> <span class="nv">short</span> <span class="nv">poor</span> <span class="nv">people</span> <span class="nv">people</span><span class="p">)</span>
 
-<span class="p">(</span><span class="nf">hyphenation</span> <span class="s">"momentary"</span><span class="p">)</span>
- <span class="nv">=&gt;</span> <span class="err">[{</span><span class="s">"seq"</span><span class="nv">:0,</span><span class="s">"text"</span><span class="nv">:</span><span class="s">"mo"</span><span class="o">,</span><span class="s">"type"</span><span class="nv">:</span><span class="s">"stress"</span><span class="err">}</span><span class="o">,</span>
- <span class="o">...</span> <span class="err">{</span><span class="s">"seq"</span><span class="nv">:1,</span><span class="s">"text"</span><span class="nv">:</span><span class="s">"men"</span><span class="err">}</span><span class="o">,</span><span class="err">{</span><span class="s">"seq"</span><span class="nv">:2,</span><span class="s">"text"</span><span class="nv">:</span><span class="s">"ta"</span><span class="err">}</span><span class="o">,</span><span class="err">{</span><span class="s">"seq"</span><span class="nv">:3,</span><span class="s">"text"</span><span class="nv">:</span><span class="s">"ry"</span><span class="err">}]</span></code></pre></figure>
+<span class="p">(</span><span class="nf">hyphenation</span> <span class="s">&quot;momentary&quot;</span><span class="p">)</span>
+ <span class="k">=&gt; </span><span class="p">[</span><span class="err">{</span><span class="s">&quot;seq&quot;</span><span class="nv">:0,</span><span class="s">&quot;text&quot;</span><span class="nv">:</span><span class="s">&quot;mo&quot;</span><span class="o">,</span><span class="s">&quot;type&quot;</span><span class="nv">:</span><span class="s">&quot;stress&quot;</span><span class="err">}</span><span class="o">,</span>
+ <span class="o">...</span> <span class="err">{</span><span class="s">&quot;seq&quot;</span><span class="nv">:1,</span><span class="s">&quot;text&quot;</span><span class="nv">:</span><span class="s">&quot;men&quot;</span><span class="err">}</span><span class="o">,</span><span class="err">{</span><span class="s">&quot;seq&quot;</span><span class="nv">:2,</span><span class="s">&quot;text&quot;</span><span class="nv">:</span><span class="s">&quot;ta&quot;</span><span class="err">}</span><span class="o">,</span><span class="err">{</span><span class="s">&quot;seq&quot;</span><span class="nv">:3,</span><span class="s">&quot;text&quot;</span><span class="nv">:</span><span class="s">&quot;ry&quot;</span><span class="err">}</span><span class="p">]</span></code></pre></div>
 
 <h2 id="reference">Reference</h2>
 
@@ -182,36 +181,32 @@ library immediately becomes available to the C application.</p>
   <li>Add a new action to the action list</li>
 </ul>
 
-<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme">  <span class="p">(</span><span class="k">define</span> <span class="nv">actions</span>
-   <span class="o">'</span><span class="p">((</span><span class="o">#</span><span class="nv">:meaning</span> <span class="o">.</span> <span class="s">"define"</span><span class="p">)</span>
-     <span class="p">(</span><span class="o">#</span><span class="nv">:synonym</span> <span class="o">.</span> <span class="s">"syn"</span><span class="p">)</span>
-     <span class="p">(</span><span class="o">#</span><span class="nv">:antonym</span> <span class="o">.</span> <span class="s">"ant"</span><span class="p">)</span>
-     <span class="p">(</span><span class="o">#</span><span class="nv">:related</span> <span class="o">.</span> <span class="s">"rel"</span><span class="p">)</span>
-     <span class="p">(</span><span class="o">#</span><span class="nv">:similar</span> <span class="o">.</span> <span class="s">"sim"</span><span class="p">)</span>
-     <span class="p">(</span><span class="o">#</span><span class="nv">:usage-examples</span> <span class="o">.</span> <span class="s">"usage-examples"</span><span class="p">)</span>
-     <span class="p">(</span><span class="o">#</span><span class="nv">:hyphenation</span> <span class="o">.</span> <span class="s">"hyphenation"</span><span class="p">)</span>
-     <span class="p">(</span><span class="o">#</span><span class="nv">:pronunciation</span> <span class="o">.</span> <span class="s">"pronunciations"</span><span class="p">)</span>
-     <span class="p">(</span><span class="o">#</span><span class="nv">:define</span> <span class="o">.</span> <span class="s">"definitions"</span><span class="p">))</span>
-     <span class="p">(</span><span class="o">#</span><span class="nv">:newaction</span> <span class="o">.</span> <span class="s">"newaction"</span> <span class="p">))</span> <span class="c1">; &lt;== Your new action here</span>
-
-    </code></pre></figure>
+<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="k">define </span><span class="nv">actions</span>
+   <span class="o">&#39;</span><span class="p">((</span><span class="o">#</span><span class="nv">:meaning</span> <span class="o">.</span> <span class="s">&quot;define&quot;</span><span class="p">)</span>
+     <span class="p">(</span><span class="o">#</span><span class="nv">:synonym</span> <span class="o">.</span> <span class="s">&quot;syn&quot;</span><span class="p">)</span>
+     <span class="p">(</span><span class="o">#</span><span class="nv">:antonym</span> <span class="o">.</span> <span class="s">&quot;ant&quot;</span><span class="p">)</span>
+     <span class="p">(</span><span class="o">#</span><span class="nv">:related</span> <span class="o">.</span> <span class="s">&quot;rel&quot;</span><span class="p">)</span>
+     <span class="p">(</span><span class="o">#</span><span class="nv">:similar</span> <span class="o">.</span> <span class="s">&quot;sim&quot;</span><span class="p">)</span>
+     <span class="p">(</span><span class="o">#</span><span class="nv">:usage-examples</span> <span class="o">.</span> <span class="s">&quot;usage-examples&quot;</span><span class="p">)</span>
+     <span class="p">(</span><span class="o">#</span><span class="nv">:hyphenation</span> <span class="o">.</span> <span class="s">&quot;hyphenation&quot;</span><span class="p">)</span>
+     <span class="p">(</span><span class="o">#</span><span class="nv">:pronunciation</span> <span class="o">.</span> <span class="s">&quot;pronunciations&quot;</span><span class="p">)</span>
+     <span class="p">(</span><span class="o">#</span><span class="nv">:define</span> <span class="o">.</span> <span class="s">&quot;definitions&quot;</span><span class="p">))</span>
+     <span class="p">(</span><span class="o">#</span><span class="nv">:newaction</span> <span class="o">.</span> <span class="s">&quot;newaction&quot;</span> <span class="p">))</span> <span class="c1">; &lt;== Your new action here</span></code></pre></div>
 
 <ul>
   <li>Define a high level function that calls the existing backend service
-and pass the newly defined action to it:</li>
+and pass the newly defined action to it: </li>
 </ul>
 
-<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme">  <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">similar</span> <span class="nv">word</span><span class="p">)</span>
-    <span class="p">(</span><span class="nf">parse-bighuge</span> <span class="nv">word</span> <span class="o">#</span><span class="nv">:newaction</span><span class="p">))</span>
-
-  </code></pre></figure>
+<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nf">similar</span> <span class="nv">word</span><span class="p">)</span>
+    <span class="p">(</span><span class="nf">parse-bighuge</span> <span class="nv">word</span> <span class="o">#</span><span class="nv">:newaction</span><span class="p">))</span></code></pre></div>
 
 <h3 id="the-c-client-program">The C client program</h3>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">app synonym good
-<span class="gp">=&gt; </span>full estimable honorable respectable beneficial just upright
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">app synonym <span class="nv">good</span>
+<span class="o">=</span>&gt; full estimable honorable respectable beneficial just upright
 ... expert practiced proficient skillful skilful dear near
-depend quality vantage well thoroughly soundly</code></pre></figure>
+depend quality vantage well thoroughly soundly</code></pre></div>
 
 <h2 id="contributing">Contributing</h2>
 
@@ -245,10 +240,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 <p><a href="https://github.com/pasoev/guile-words"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" /></a></p>
 
     </article>
-    
-    <span class="tpb_btn" data-kingdom-id="207272" data-referrer="327441" data-scheme="dark_blue" data-language="en" data-name="Roguelikes" ></span>
-    <script src="http://dev.topishare.com/button/show/"></script>
 
+<span class="tpb_btn" data-kingdom-id="207272" data-referrer="327441" data-scheme="dark_blue" data-language="en" data-name="Roguelikes" ></span>
+<script src="https://topishare.com/button/show/"></script>
 </div>
 
       </div>
