@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: post
+comments: true
 title: guile-words - Vocabulary for Scheme and C programs
+author: Sergi Pasoev
 description: guile-words, vocabulary for Scheme
 permalink: /words/
 ---

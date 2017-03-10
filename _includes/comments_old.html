@@ -1,0 +1,58 @@
+<!-- 
+    <div class="comments">
+        <form action="http://pooleapp.com/stash/f5ca159d-90d6-40bd-a74a-735292a31c45/" method="post">
+            <input type="hidden" name="redirect_to" value="{{page.url}}" />
+            <input type="hidden" name="path" value="{{page.url}}" />
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">Name</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="name" name="name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="text">Comment</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><textarea rows="5" cols="75" id="text" name="text"></textarea></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="submit" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        
+
+        
+        <ul class="listing comments">
+            {% for comment in site.data.comments.sessions %}
+            {% if comment.path == page.url %}
+            <li>
+                <time datetime="{{ comment.created | date_to_xmlschema }}">{{ comment.created | date_to_long_string  }}</time>
+                {% if comment.url %}
+                <div>
+                    <a href="{{ comment.url }}" class="commenter">{{ comment.name }}</a>
+                </div>
+                {% else %}
+                <div class="commenter">{{ comment.name }}:</div>
+                {% endif %}
+                <p>
+                    {{ comment.text }}
+                </p>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+    -->

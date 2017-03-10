@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Innere Finsternis - Manual
 description: A Roguelike Game
 ads: false

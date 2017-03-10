@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: post
 title: Guile Cookbook
+author: Sergi Pasoev
 permalink: /cookbook/
+description: A collection of snippets on how to do most common things in Guile Scheme
 published: true
 ---
 
