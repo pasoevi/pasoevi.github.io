@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>http://pasoev.github.io/programming/2015/10/31/jekyll-posts-emacs-capture/</loc>
+      <loc>http://localhost:4000/programming/2015/10/31/jekyll-posts-emacs-capture/</loc>
       
         <lastmod>2015-10-31T00:00:00+04:00</lastmod>
       
@@ -33,9 +33,9 @@
 
     
     <url>
-      <loc>http://pasoev.github.io</loc>
+      <loc>http://localhost:4000</loc>
       
-        <lastmod>2017-02-03T20:43:10+04:00</lastmod>
+        <lastmod>2017-03-10T09:52:04+04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -64,59 +64,7 @@
 
   
     
-      
-        <url>
-          <loc>http://pasoev.github.io/cookbook/</loc>
-          
-            <lastmod>2017-02-03T20:43:10+04:00</lastmod>
-          
-          
-            <changefreq>monthly</changefreq>
-          
-          
-            <priority>0.3</priority>
-          
-        </url>
-      
-        <url>
-          <loc>http://pasoev.github.io/innfin/</loc>
-          
-            <lastmod>2017-02-03T20:43:10+04:00</lastmod>
-          
-          
-            <changefreq>monthly</changefreq>
-          
-          
-            <priority>0.3</priority>
-          
-        </url>
-      
-        <url>
-          <loc>http://pasoev.github.io/innfin/</loc>
-          
-            <lastmod>2017-02-03T20:43:10+04:00</lastmod>
-          
-          
-            <changefreq>monthly</changefreq>
-          
-          
-            <priority>0.3</priority>
-          
-        </url>
-      
-        <url>
-          <loc>http://pasoev.github.io/words/</loc>
-          
-            <lastmod>2017-02-03T20:43:10+04:00</lastmod>
-          
-          
-            <changefreq>monthly</changefreq>
-          
-          
-            <priority>0.3</priority>
-          
-        </url>
-      
+  
     
   
 </urlset>

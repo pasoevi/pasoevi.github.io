@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Emacs Shortcuts for Writing Posts Using Jekyll
 description: An easy way to add shortcuts to Emacs for writing blog posts using Jekyll
 category: "Programming"

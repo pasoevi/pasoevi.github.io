@@ -6,7 +6,7 @@
     <title>Guile Cookbook</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="A blog to accompany the Github repositories from the same user.">
-    <link rel="canonical" href="http://pasoev.github.io/cookbook/">
+    <link rel="canonical" href="http://localhost:4000/cookbook/">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
@@ -81,40 +81,40 @@
 
     <article class="post-content">
         <ul id="markdown-toc">
-  <li><a href="#guile-scheme">Guile Scheme</a>    <ul>
-      <li><a href="#modules">Modules</a>        <ul>
-          <li><a href="#simply-importing-modules">Simply Importing modules</a></li>
+  <li><a href="#guile-scheme" id="markdown-toc-guile-scheme">Guile Scheme</a>    <ul>
+      <li><a href="#modules" id="markdown-toc-modules">Modules</a>        <ul>
+          <li><a href="#simply-importing-modules" id="markdown-toc-simply-importing-modules">Simply Importing modules</a></li>
         </ul>
       </li>
-      <li><a href="#strings">Strings</a>        <ul>
-          <li><a href="#reverse-string">Reverse String</a></li>
-          <li><a href="#reverse-string-in-place">Reverse String in Place</a></li>
+      <li><a href="#strings" id="markdown-toc-strings">Strings</a>        <ul>
+          <li><a href="#reverse-string" id="markdown-toc-reverse-string">Reverse String</a></li>
+          <li><a href="#reverse-string-in-place" id="markdown-toc-reverse-string-in-place">Reverse String in Place</a></li>
         </ul>
       </li>
-      <li><a href="#regular-expressions">Regular expressions</a>        <ul>
-          <li><a href="#loading-module">Loading module</a></li>
-          <li><a href="#basic-match">Basic match</a></li>
+      <li><a href="#regular-expressions" id="markdown-toc-regular-expressions">Regular expressions</a>        <ul>
+          <li><a href="#loading-module" id="markdown-toc-loading-module">Loading module</a></li>
+          <li><a href="#basic-match" id="markdown-toc-basic-match">Basic match</a></li>
         </ul>
       </li>
-      <li><a href="#time-and-date">Time and Date</a></li>
-      <li><a href="#io">IO</a>        <ul>
-          <li><a href="#file-tree-walk">File tree walk</a></li>
+      <li><a href="#time-and-date" id="markdown-toc-time-and-date">Time and Date</a></li>
+      <li><a href="#io" id="markdown-toc-io">IO</a>        <ul>
+          <li><a href="#file-tree-walk" id="markdown-toc-file-tree-walk">File tree walk</a></li>
         </ul>
       </li>
-      <li><a href="#network">Network</a>        <ul>
-          <li><a href="#http-requests">Http requests</a></li>
-          <li><a href="#displaying-text">Displaying text</a></li>
+      <li><a href="#network" id="markdown-toc-network">Network</a>        <ul>
+          <li><a href="#http-requests" id="markdown-toc-http-requests">Http requests</a></li>
+          <li><a href="#displaying-text" id="markdown-toc-displaying-text">Displaying text</a></li>
         </ul>
       </li>
-      <li><a href="#libraries">Libraries</a>        <ul>
-          <li><a href="#using-slib">Using SLIB</a></li>
+      <li><a href="#libraries" id="markdown-toc-libraries">Libraries</a>        <ul>
+          <li><a href="#using-slib" id="markdown-toc-using-slib">Using SLIB</a></li>
         </ul>
       </li>
     </ul>
   </li>
-  <li><a href="#the-c-side">The C Side</a>    <ul>
-      <li><a href="#loading-a-scheme-source-file">Loading a Scheme source file</a></li>
-      <li><a href="#calling-a-scheme-function">Calling a Scheme function</a></li>
+  <li><a href="#the-c-side" id="markdown-toc-the-c-side">The C Side</a>    <ul>
+      <li><a href="#loading-a-scheme-source-file" id="markdown-toc-loading-a-scheme-source-file">Loading a Scheme source file</a></li>
+      <li><a href="#calling-a-scheme-function" id="markdown-toc-calling-a-scheme-function">Calling a Scheme function</a></li>
     </ul>
   </li>
 </ul>
@@ -125,27 +125,27 @@
 
 <h4 id="simply-importing-modules">Simply Importing modules</h4>
 
-<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">use-modules</span> <span class="p">(</span><span class="nf">srfi</span> <span class="nv">srfi-19</span><span class="p">))</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">use-modules</span> <span class="p">(</span><span class="nf">srfi</span> <span class="nv">srfi-19</span><span class="p">))</span></code></pre></figure>
 
 <h3 id="strings">Strings</h3>
 
 <h4 id="reverse-string">Reverse String</h4>
 
-<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">string-reverse</span> <span class="nv">str</span> <span class="p">[</span><span class="nv">start</span> <span class="p">[</span><span class="nv">end</span><span class="p">]])</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">string-reverse</span> <span class="nv">str</span> <span class="err">[</span><span class="nv">start</span> <span class="err">[</span><span class="nv">end</span><span class="err">]]</span><span class="p">)</span></code></pre></figure>
 
 <h4 id="reverse-string-in-place">Reverse String in Place</h4>
 
-<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">string-reverse!</span> <span class="nv">str</span> <span class="p">[</span><span class="nv">start</span> <span class="p">[</span><span class="nv">end</span><span class="p">]])</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">string-reverse!</span> <span class="nv">str</span> <span class="err">[</span><span class="nv">start</span> <span class="err">[</span><span class="nv">end</span><span class="err">]]</span><span class="p">)</span></code></pre></figure>
 
 <h3 id="regular-expressions">Regular expressions</h3>
 
 <h4 id="loading-module">Loading module</h4>
 
-<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">use-modules</span> <span class="p">(</span><span class="nf">ice-9</span> <span class="nv">regex</span><span class="p">))</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">use-modules</span> <span class="p">(</span><span class="nf">ice-9</span> <span class="nv">regex</span><span class="p">))</span></code></pre></figure>
 
 <h4 id="basic-match">Basic match</h4>
 
-<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">string-match</span> <span class="s">&quot;[A-Za-z]&quot;</span> <span class="s">&quot;foo&quot;</span><span class="p">)</span> <span class="c1">; matches all alphabetic letters</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">string-match</span> <span class="s">"[A-Za-z]"</span> <span class="s">"foo"</span><span class="p">)</span> <span class="c1">; matches all alphabetic letters</span></code></pre></figure>
 
 <h3 id="time-and-date">Time and Date</h3>
 
@@ -153,57 +153,54 @@
 
 <h4 id="file-tree-walk">File tree walk</h4>
 
-<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">use-modules</span> <span class="p">(</span><span class="nf">ice-9</span> <span class="nv">ftw</span><span class="p">))</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">use-modules</span> <span class="p">(</span><span class="nf">ice-9</span> <span class="nv">ftw</span><span class="p">))</span></code></pre></figure>
 
-<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">open-file</span> <span class="nv">filename</span>
-        <span class="p">(</span><span class="k">if </span><span class="nv">binary</span> <span class="s">&quot;wb&quot;</span> <span class="s">&quot;w&quot;</span><span class="p">)</span>
-            <span class="o">#</span><span class="nv">:encoding</span> <span class="nv">encoding</span><span class="p">)</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme">    <span class="p">(</span><span class="nf">open-file</span> <span class="nv">filename</span>
+        <span class="p">(</span><span class="k">if</span> <span class="nv">binary</span> <span class="s">"wb"</span> <span class="s">"w"</span><span class="p">)</span>
+            <span class="o">#</span><span class="nv">:encoding</span> <span class="nv">encoding</span><span class="p">)</span></code></pre></figure>
 
 <h3 id="network">Network</h3>
 
 <h4 id="http-requests">Http requests</h4>
 
-<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">use-modules</span> <span class="p">(</span><span class="nf">web</span> <span class="nv">client</span><span class="p">))</span>
-<span class="p">(</span><span class="nf">http-get</span> <span class="nv">url</span> <span class="o">#</span><span class="nv">:streaming?</span> <span class="no">#t</span><span class="p">)</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">use-modules</span> <span class="p">(</span><span class="nf">web</span> <span class="nv">client</span><span class="p">))</span>
+<span class="p">(</span><span class="nf">http-get</span> <span class="nv">url</span> <span class="o">#</span><span class="nv">:streaming?</span> <span class="no">#t</span><span class="p">)</span></code></pre></figure>
 
 <h4 id="displaying-text">Displaying text</h4>
 
-<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nb">display </span><span class="s">&quot;Guile Cookbook&quot;</span><span class="p">)</span>
-<span class="p">(</span><span class="nf">newline</span><span class="p">)</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nb">display</span> <span class="s">"Guile Cookbook"</span><span class="p">)</span>
+<span class="p">(</span><span class="nb">newline</span><span class="p">)</span></code></pre></figure>
 
 <h3 id="libraries">Libraries</h3>
 
 <h4 id="using-slib">Using SLIB</h4>
 
-<div class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">use-modules</span> <span class="p">(</span><span class="nf">ice-9</span> <span class="nv">slib</span><span class="p">))</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="p">(</span><span class="nf">use-modules</span> <span class="p">(</span><span class="nf">ice-9</span> <span class="nv">slib</span><span class="p">))</span></code></pre></figure>
 
 <h2 id="the-c-side">The C Side</h2>
 
 <h3 id="loading-a-scheme-source-file">Loading a Scheme source file</h3>
 
-<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="n">scm_c_primitive_load</span> <span class="p">(</span><span class="s">&quot;source.scm&quot;</span><span class="p">);</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-c" data-lang="c"><span class="n">scm_c_primitive_load</span> <span class="p">(</span><span class="s">"source.scm"</span><span class="p">);</span></code></pre></figure>
 
 <h3 id="calling-a-scheme-function">Calling a Scheme function</h3>
 
-<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="cm">/* Declare SCM types for calling a function and reading its output */</span>
+<figure class="highlight"><pre><code class="language-c" data-lang="c"><span class="cm">/* Declare SCM types for calling a function and reading its output */</span>
 <span class="n">SCM</span> <span class="n">func_symbol</span><span class="p">;</span>
 <span class="n">SCM</span> <span class="n">fun</span><span class="p">;</span>
 <span class="n">SCM</span> <span class="n">ret_val</span><span class="p">;</span>
 
 <span class="cm">/* Look up the symbol */</span>
-<span class="n">func_symbol</span> <span class="o">=</span> <span class="n">scm_c_lookup</span><span class="p">(</span><span class="s">&quot;function-name&quot;</span><span class="p">);</span>
+<span class="n">func_symbol</span> <span class="o">=</span> <span class="n">scm_c_lookup</span><span class="p">(</span><span class="s">"function-name"</span><span class="p">);</span>
 <span class="n">func</span> <span class="o">=</span> <span class="n">scm_variable_ref</span><span class="p">(</span><span class="n">func_symbol</span><span class="p">);</span>
 <span class="cm">/* Call a Scheme function taking one argument */</span>
-<span class="n">ret_val</span> <span class="o">=</span> <span class="n">scm_call_1</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">scm_from_locale_string</span><span class="p">(</span><span class="s">&quot;string argument&quot;</span><span class="p">));</span>
+<span class="n">ret_val</span> <span class="o">=</span> <span class="n">scm_call_1</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">scm_from_locale_string</span><span class="p">(</span><span class="s">"string argument"</span><span class="p">));</span>
 
-<span class="cm">/* ret_val now holds the return value from the function */</span></code></pre></div>
+<span class="cm">/* ret_val now holds the return value from the function */</span></code></pre></figure>
 
 <p><a href="https://github.com/pasoev/guile-cookbook"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" /></a></p>
 
     </article>
-
-<span class="tpb_btn" data-kingdom-id="207272" data-referrer="327441" data-scheme="dark_blue" data-language="en" data-name="Roguelikes" ></span>
-<script src="https://topishare.com/button/show/"></script>
 </div>
 
       </div>
