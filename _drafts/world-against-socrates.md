@@ -4,9 +4,10 @@ title: World Against Socrates
 category: "Simpler"
 ---
 
-The Concept of Irony has been the turning point in philosophy. It not
-only brought new views to the world, philosophy and more, but also
-changed the way people see the world and thought itself.
+Socrates and The Concept of Irony has been the turning point in
+philosophy. It not only brought new views to the world, philosophy and
+more, but also changed the way people see the world and thought
+itself.
 
 There is also one interesting thing to observe about irony. What has
 been the effects of irony, negativity and all the legacy of Socrates?

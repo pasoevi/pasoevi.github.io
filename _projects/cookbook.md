@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Guile Cookbook
+title: Guile Scheme Cookbook
 author: Sergi Pasoev
 permalink: /cookbook/
 description: A collection of snippets on how to do most common things in Guile Scheme
