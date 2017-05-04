@@ -3,11 +3,11 @@
   <channel>
     <title>Sergi Pasoev</title>
     <description>A blog to accompany the Github repositories from the same user.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 10 Mar 2017 11:53:56 +0400</pubDate>
-    <lastBuildDate>Fri, 10 Mar 2017 11:53:56 +0400</lastBuildDate>
-    <generator>Jekyll v3.4.2</generator>
+    <link>http://pasoev.github.io/</link>
+    <atom:link href="http://pasoev.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 04 May 2017 17:38:39 +0400</pubDate>
+    <lastBuildDate>Thu, 04 May 2017 17:38:39 +0400</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Emacs Shortcuts for Writing Posts Using Jekyll</title>
@@ -36,8 +36,8 @@ keystrokes without ever leaving Emacs.&lt;/p&gt;
 
 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;jekyll-new&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;title&lt;/span&gt;
-	 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;string=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;thing-at-point&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-	     &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;thing-at-point&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;car&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;kill-ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))&lt;/span&gt;
+	 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;string=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;thing-at-point&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&#39;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+	     &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;thing-at-point&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&#39;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;car&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;kill-ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;concat&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file-name-as-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;~/blog/_posts&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 	&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;today-is&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;-&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;.md&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
 
@@ -86,8 +86,8 @@ the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; director
 could be added for it.&lt;/p&gt;
 </description>
         <pubDate>Sat, 31 Oct 2015 00:00:00 +0400</pubDate>
-        <link>http://localhost:4000/programming/2015/10/31/jekyll-posts-emacs-capture/</link>
-        <guid isPermaLink="true">http://localhost:4000/programming/2015/10/31/jekyll-posts-emacs-capture/</guid>
+        <link>http://pasoev.github.io/programming/2015/10/31/jekyll-posts-emacs-capture/</link>
+        <guid isPermaLink="true">http://pasoev.github.io/programming/2015/10/31/jekyll-posts-emacs-capture/</guid>
         
         <category>Jekyll</category>
         
