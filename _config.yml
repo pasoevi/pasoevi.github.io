@@ -1,9 +1,9 @@
 # Site settings
 title: Sergi Pasoev
-email: sergi@topishare.com
+email: s.pasoev@gmail.com
 description: "A blog to accompany the Github repositories from the same user."
 baseurl: ""
-url: "http://pasoev.github.io"
+url: "http://pasoev.com"
 github_username:  pasoev
 highlighters: rouge
 # Build settings
