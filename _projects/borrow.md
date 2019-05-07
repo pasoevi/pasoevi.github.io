@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: guile-borrow - Racket and Clojure inspired language constructs in Gnu Guile
-author: Sergi Pasoev
+author: Sergo Pasoevi
 description: guile-borrow - more ubiquitous Scheme
 permalink: /borrow/
 ---

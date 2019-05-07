@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: guile-words - Vocabulary for Scheme and C programs
-author: Sergi Pasoev
+author: Sergo Pasoevi
 description: guile-words, vocabulary for Scheme
 permalink: /words/
 ---
@@ -100,7 +100,7 @@ library immediately becomes available to the C application.
 ```
 
 * Define a high level function that calls the existing backend service
-and pass the newly defined action to it: 
+and pass the newly defined action to it:
 
 ```scheme
 

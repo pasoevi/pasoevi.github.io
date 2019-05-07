@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Guile Scheme Cookbook
-author: Sergi Pasoev
+author: Sergo Pasoevi
 permalink: /cookbook/
 description: A collection of snippets on how to do most common things in Guile Scheme
 published: true
@@ -60,7 +60,7 @@ published: true
 
 
 
-{% endhighlight %} 
+{% endhighlight %}
 
 {% highlight scheme %}
     (open-file filename

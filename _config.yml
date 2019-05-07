@@ -1,10 +1,10 @@
 # Site settings
-title: Sergi Pasoev
-email: s.pasoev@gmail.com
+title: Sergo i
+email: spasoevi@gmail.com
 description: "A blog to accompany the Github repositories from the same user."
 baseurl: ""
-url: "http://pasoev.com"
-github_username:  pasoev
+url: "http://pasoevi.com"
+github_username:  pasoevi
 highlighters: rouge
 # Build settings
 markdown: kramdown
