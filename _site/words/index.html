@@ -8,7 +8,7 @@
     <title>guile-words - Vocabulary for Scheme and C programs</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="A blog to accompany the Github repositories from the same user.">
-    <link rel="canonical" href="http://pasoev.com/words/">
+    <link rel="canonical" href="http://pasoevi.com/words/">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
@@ -31,8 +31,8 @@
 
     <header class="site-header">
     <div class="wrap">
-	<!-- <h1>Sergi Pasoev</h1> -->
-	<a class="site-title" href="/">Sergi Pasoev</a>
+	<!-- <h1>Sergo Pasoevi</h1> -->
+	<a class="site-title" href="/">Sergo Pasoevi</a>
 	<div style="clear: both;"></div>
 	<img src="/assets/far.png" alt="header" class="theme-img"/>
 
@@ -48,7 +48,7 @@
 
 
              
-             <a class="page-link" href="/">Sergi Pasoev</a>
+             <a class="page-link" href="/">Sergo Pasoevi</a>
 
 
              
@@ -57,10 +57,6 @@
 
              
              <a class="page-link" href="/projects/">Projects</a>
-
-
-             
-             
 
 
              
@@ -85,7 +81,7 @@
             
         </h1>
         
-        <p class="meta">May 8, 2017  Sergi Pasoev</p>
+        <p class="meta">  Sergo Pasoevi</p>
         
     </header>
 
@@ -118,20 +114,20 @@ in <em>C</em> (and <em>C++</em>) programs and libraries as well.</p>
 
 <p>Download the <a href="https://github.com/pasoev/guile-words/releases/download/0.01/guile-words-0.01.tar.gz">tar file</a> or clone a git reository</p>
 
-<div class="language-bash highlighter-rouge"><pre class="codehilite"><code>git clone https://github.com/pasoev/guile-words.git
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/pasoev/guile-words.git
 
-</code></pre></div>
+</code></pre></div></div>
 
 <p>put the <em>words.scm</em> (or the compiled <em>.go</em>) file in the Guile site
 package, typically</p>
 
-<div class="highlighter-rouge"><pre class="codehilite"><code>/usr/share/guile/site/
-</code></pre></div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/usr/share/guile/site/
+</code></pre></div></div>
 
 <h2 id="usage-examples">Usage examples</h2>
 
 <h3 id="the-scheme-library">The Scheme library</h3>
-<div class="language-scheme highlighter-rouge"><pre class="codehilite"><code><span class="p">(</span><span class="nf">use-modules</span> <span class="p">(</span><span class="nf">words</span><span class="p">))</span>
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="nf">use-modules</span> <span class="p">(</span><span class="nf">words</span><span class="p">))</span>
 
 <span class="p">(</span><span class="nf">antonym</span> <span class="s">"good"</span><span class="p">)</span>
  <span class="nv">=&gt;</span> <span class="p">(</span><span class="nf">ant</span> <span class="nv">bad</span> <span class="nv">evil</span> <span class="nv">bad</span> <span class="nv">badness</span> <span class="nv">evil</span> <span class="nv">evilness</span> <span class="nv">ill</span><span class="p">)</span>
@@ -141,10 +137,10 @@ package, typically</p>
  <span class="o">...</span> <span class="nv">piteous</span> <span class="nv">pitiable</span> <span class="nv">pitiful</span> <span class="nv">wretched</span> <span class="nv">inadequate</span> <span class="nv">short</span> <span class="nv">poor</span> <span class="nv">people</span> <span class="nv">people</span><span class="p">)</span>
 
 <span class="p">(</span><span class="nf">hyphenation</span> <span class="s">"momentary"</span><span class="p">)</span>
- <span class="nv">=&gt;</span> <span class="err">[{</span><span class="s">"seq"</span><span class="nv">:0,</span><span class="s">"text"</span><span class="nv">:</span><span class="s">"mo"</span><span class="o">,</span><span class="s">"type"</span><span class="nv">:</span><span class="s">"stress"</span><span class="err">}</span><span class="o">,</span>
- <span class="o">...</span> <span class="err">{</span><span class="s">"seq"</span><span class="nv">:1,</span><span class="s">"text"</span><span class="nv">:</span><span class="s">"men"</span><span class="err">}</span><span class="o">,</span><span class="err">{</span><span class="s">"seq"</span><span class="nv">:2,</span><span class="s">"text"</span><span class="nv">:</span><span class="s">"ta"</span><span class="err">}</span><span class="o">,</span><span class="err">{</span><span class="s">"seq"</span><span class="nv">:3,</span><span class="s">"text"</span><span class="nv">:</span><span class="s">"ry"</span><span class="err">}]</span>
+ <span class="nv">=&gt;</span> <span class="p">[</span><span class="err">{</span><span class="s">"seq"</span><span class="nv">:0,</span><span class="s">"text"</span><span class="nv">:</span><span class="s">"mo"</span><span class="o">,</span><span class="s">"type"</span><span class="nv">:</span><span class="s">"stress"</span><span class="err">}</span><span class="o">,</span>
+ <span class="o">...</span> <span class="err">{</span><span class="s">"seq"</span><span class="nv">:1,</span><span class="s">"text"</span><span class="nv">:</span><span class="s">"men"</span><span class="err">}</span><span class="o">,</span><span class="err">{</span><span class="s">"seq"</span><span class="nv">:2,</span><span class="s">"text"</span><span class="nv">:</span><span class="s">"ta"</span><span class="err">}</span><span class="o">,</span><span class="err">{</span><span class="s">"seq"</span><span class="nv">:3,</span><span class="s">"text"</span><span class="nv">:</span><span class="s">"ry"</span><span class="err">}</span><span class="p">]</span>
 
-</code></pre></div>
+</code></pre></div></div>
 
 <h2 id="reference">Reference</h2>
 
@@ -171,7 +167,7 @@ library immediately becomes available to the C application.</p>
   <li>Add a new action to the action list</li>
 </ul>
 
-<div class="language-scheme highlighter-rouge"><pre class="codehilite"><code>
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
   <span class="p">(</span><span class="k">define</span> <span class="nv">actions</span>
    <span class="o">'</span><span class="p">((</span><span class="o">#</span><span class="nv">:meaning</span> <span class="o">.</span> <span class="s">"define"</span><span class="p">)</span>
      <span class="p">(</span><span class="o">#</span><span class="nv">:synonym</span> <span class="o">.</span> <span class="s">"syn"</span><span class="p">)</span>
@@ -184,27 +180,27 @@ library immediately becomes available to the C application.</p>
      <span class="p">(</span><span class="o">#</span><span class="nv">:define</span> <span class="o">.</span> <span class="s">"definitions"</span><span class="p">))</span>
      <span class="p">(</span><span class="o">#</span><span class="nv">:newaction</span> <span class="o">.</span> <span class="s">"newaction"</span> <span class="p">))</span> <span class="c1">; &lt;== Your new action here</span>
 
-</code></pre></div>
+</code></pre></div></div>
 
 <ul>
   <li>Define a high level function that calls the existing backend service
 and pass the newly defined action to it:</li>
 </ul>
 
-<div class="language-scheme highlighter-rouge"><pre class="codehilite"><code>
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
   <span class="p">(</span><span class="k">define</span> <span class="p">(</span><span class="nf">similar</span> <span class="nv">word</span><span class="p">)</span>
     <span class="p">(</span><span class="nf">parse-bighuge</span> <span class="nv">word</span> <span class="o">#</span><span class="nv">:newaction</span><span class="p">))</span>
 
-</code></pre></div>
+</code></pre></div></div>
 
 <h3 id="the-c-client-program">The C client program</h3>
 
-<div class="highlighter-rouge"><pre class="codehilite"><code>app synonym good
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>app synonym good
 =&gt; full estimable honorable respectable beneficial just upright
 ... expert practiced proficient skillful skilful dear near
 depend quality vantage well thoroughly soundly
 
-</code></pre></div>
+</code></pre></div></div>
 
 <h2 id="contributing">Contributing</h2>
 
@@ -274,19 +270,19 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 
   <div class="wrap">
 
-    <h2 class="footer-heading">Sergi Pasoev</h2>
+    <h2 class="footer-heading">Sergo Pasoevi</h2>
 
     <div class="footer-col-1 column">
       <ul>
-        <li>Sergi Pasoev</li>
-        <li><a href="mailto:s.pasoev@gmail.com">s.pasoev@gmail.com</a></li>
+        <li>Sergo Pasoevi</li>
+        <li><a href="mailto:spasoevi@gmail.com">spasoevi@gmail.com</a></li>
       </ul>
     </div>
 
     <div class="footer-col-2 column">
       <ul>
         <li>
-          <a href="https://github.com/pasoev">
+          <a href="https://github.com/pasoevi">
             <span class="icon github">
               <svg version="1.1" class="github-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                  viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
@@ -301,7 +297,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
                 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
               </svg>
             </span>
-            <span class="username">pasoev</span>
+            <span class="username">pasoevi</span>
           </a>
         </li>
         
